@@ -1,11 +1,10 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
   resources :users
-=======
+  resources :junior_companies
+  resources :federations
   resources :cities
   resources :states
   resources :countries
->>>>>>> fe23eb9bfeb5ce3f2f28e06ade9b4cd1cd1adb1d
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

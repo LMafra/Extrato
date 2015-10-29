@@ -1,0 +1,2 @@
+module JuniorCompaniesHelper
+end

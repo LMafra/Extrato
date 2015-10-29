@@ -11,21 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20151029004629) do
-
-  create_table "users", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "password"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
-    t.string   "password_digest"
-  end
-
-  add_index "users", ["email"], name: "index_users_on_email", unique: true
-=======
-ActiveRecord::Schema.define(version: 20151029004316) do
+ActiveRecord::Schema.define(version: 20151029005454) do
 
   create_table "cities", force: :cascade do |t|
     t.string   "name"
@@ -40,12 +26,36 @@ ActiveRecord::Schema.define(version: 20151029004316) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "federations", force: :cascade do |t|
+    t.string   "name"
+    t.string   "abbreviation"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  create_table "junior_companies", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "federation_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
   create_table "states", force: :cascade do |t|
     t.string   "name"
     t.integer  "country_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
->>>>>>> fe23eb9bfeb5ce3f2f28e06ade9b4cd1cd1adb1d
+
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "password"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.string   "password_digest"
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
 
 end

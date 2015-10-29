@@ -1,0 +1,26 @@
+<%= form_for(@junior_company) do |f| %>
+  <% if @junior_company.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@junior_company.errors.count, "error") %> prohibited this junior_company from being saved:</h2>
+
+      <ul>
+      <% @junior_company.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :federation_id %><br>
+    <!-- <%= f.number_field :federation_id %> -->
+    <%= collection_select(:junior_company, :federation_id, @federations, :id, :name, {:prompt => false })  %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
