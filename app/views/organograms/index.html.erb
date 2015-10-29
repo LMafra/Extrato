@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Organograms</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Federation</th>
+      <th>Junior company</th>
+      <th>Date initial</th>
+      <th>Date final</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @organograms.each do |organogram| %>
+      <tr>
+        <td><%= organogram.federation_id %></td>
+        <td><%= organogram.junior_company_id %></td>
+        <td><%= organogram.date_initial %></td>
+        <td><%= organogram.date_final %></td>
+        <td><%= link_to 'Show', organogram %></td>
+        <td><%= link_to 'Edit', edit_organogram_path(organogram) %></td>
+        <td><%= link_to 'Destroy', organogram, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Organogram', new_organogram_path %>

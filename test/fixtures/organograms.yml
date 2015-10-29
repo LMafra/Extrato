@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  federation_id: 1
+  junior_company_id: 1
+  date_initial: 2015-10-28
+  date_final: 2015-10-28
+
+two:
+  federation_id: 1
+  junior_company_id: 1
+  date_initial: 2015-10-28
+  date_final: 2015-10-28

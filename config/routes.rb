@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :users
+=======
+  resources :areas
+  resources :organograms
+>>>>>>> 51e2fcaf1dd505f72e05851a8def612b762d3b35
   resources :junior_companies
   resources :federations
   resources :cities

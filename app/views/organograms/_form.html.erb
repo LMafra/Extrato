@@ -1,0 +1,35 @@
+<%= form_for(@organogram) do |f| %>
+  <% if @organogram.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@organogram.errors.count, "error") %> prohibited this organogram from being saved:</h2>
+
+      <ul>
+      <% @organogram.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :federation_id %><br>
+    <!-- <%= f.number_field :federation_id %> -->
+    <%= collection_select(:organogram, :federation_id, @federations, :id, :name, {:prompt => false })  %>
+  </div>
+  <div class="field">
+    <%= f.label :junior_company_id %><br>
+    <!-- <%= f.number_field :junior_company_id %> -->
+    <%= collection_select(:organogram, :junior_company_id, @juniorCompanies, :id, :name, {:prompt => false })  %>
+  </div>
+  <div class="field">
+    <%= f.label :date_initial %><br>
+    <%= f.date_select :date_initial %>
+  </div>
+  <div class="field">
+    <%= f.label :date_final %><br>
+    <%= f.date_select :date_final %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
