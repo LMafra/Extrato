@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151029052200) do
+ActiveRecord::Schema.define(version: 20151029200831) do
 
   create_table "areas", force: :cascade do |t|
     t.integer  "organogram_id"
@@ -31,6 +31,14 @@ ActiveRecord::Schema.define(version: 20151029052200) do
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "dimensions", force: :cascade do |t|
+    t.string   "name"
+    t.string   "description"
+    t.string   "perfomance_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "federations", force: :cascade do |t|
@@ -55,6 +63,31 @@ ActiveRecord::Schema.define(version: 20151029052200) do
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
   end
+
+  create_table "perfomances", force: :cascade do |t|
+    t.string   "name"
+    t.string   "junior_companies_id"
+    t.string   "federations_id"
+    t.string   "role_id"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+  end
+
+  create_table "questions", force: :cascade do |t|
+    t.string   "name"
+    t.string   "dimension_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  create_table "roles", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "area_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "roles", ["area_id"], name: "index_roles_on_area_id"
 
   create_table "states", force: :cascade do |t|
     t.string   "name"

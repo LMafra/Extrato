@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Perfomances</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Junior companies</th>
+      <th>Federations</th>
+      <th>Role</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @perfomances.each do |perfomance| %>
+      <tr>
+        <td><%= perfomance.name %></td>
+        <td><%= perfomance.junior_companies_id %></td>
+        <td><%= perfomance.federations_id %></td>
+        <td><%= perfomance.role_id %></td>
+        <td><%= link_to 'Show', perfomance %></td>
+        <td><%= link_to 'Edit', edit_perfomance_path(perfomance) %></td>
+        <td><%= link_to 'Destroy', perfomance, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Perfomance', new_perfomance_path %>
