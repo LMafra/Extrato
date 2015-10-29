@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @junior_company.name %>
+</p>
+
+<p>
+  <strong>Federation:</strong>
+  <%= @junior_company.federation_id %>
+</p>
+
+<%= link_to 'Edit', edit_junior_company_path(@junior_company) %> |
+<%= link_to 'Back', junior_companies_path %>

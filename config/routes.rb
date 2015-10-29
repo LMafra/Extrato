@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :junior_companies
+  resources :federations
   resources :cities
   resources :states
   resources :countries
