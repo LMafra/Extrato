@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
+  
+  get '/' => 'sessions#new'
+  get 'signup'  => 'users#new'
+  get 'login'   => 'sessions#new'
+  post 'login'   => 'sessions#create'
+  delete 'logout'  => 'sessions#destroy'
   resources :users
-=======
   resources :areas
   resources :organograms
->>>>>>> 51e2fcaf1dd505f72e05851a8def612b762d3b35
   resources :junior_companies
   resources :federations
   resources :cities
