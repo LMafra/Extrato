@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Federation:</strong>
+  <%= @organogram.federation_id %>
+</p>
+
+<p>
+  <strong>Junior company:</strong>
+  <%= @organogram.junior_company_id %>
+</p>
+
+<p>
+  <strong>Date initial:</strong>
+  <%= @organogram.date_initial %>
+</p>
+
+<p>
+  <strong>Date final:</strong>
+  <%= @organogram.date_final %>
+</p>
+
+<%= link_to 'Edit', edit_organogram_path(@organogram) %> |
+<%= link_to 'Back', organograms_path %>

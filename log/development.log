@@ -773,3 +773,529 @@ Processing by JuniorCompaniesController#index as HTML
   [1m[36mJuniorCompany Load (0.3ms)[0m  [1mSELECT "junior_companies".* FROM "junior_companies"[0m
   Rendered junior_companies/index.html.erb within layouts/application (2.3ms)
 Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-10-28 23:07:48 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateOrganograms (20151029011445)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "organograms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "federation_id" integer, "junior_company_id" integer, "date_initial" date, "date_final" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151029011445"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/organograms" for ::1 at 2015-10-28 23:16:41 -0200
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by OrganogramsController#index as HTML
+  [1m[36mOrganogram Load (0.2ms)[0m  [1mSELECT "organograms".* FROM "organograms"[0m
+  Rendered organograms/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 294ms (Views: 290.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:16:42 -0200
+
+
+Started GET "/assets/organograms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:16:42 -0200
+
+
+Started GET "/organograms/new" for ::1 at 2015-10-28 23:16:43 -0200
+Processing by OrganogramsController#new as HTML
+  Rendered organograms/_form.html.erb (27.5ms)
+  Rendered organograms/new.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 125ms (Views: 119.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/organograms/new" for ::1 at 2015-10-28 23:17:44 -0200
+Processing by OrganogramsController#new as HTML
+  [1m[35mFederation Load (0.3ms)[0m  SELECT "federations".* FROM "federations"
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.6ms)
+
+NameError (undefined local variable or method `juniorCompany' for #<OrganogramsController:0x007f88d08e5bb0>):
+  app/controllers/organograms_controller.rb:19:in `new'
+
+
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.9ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.0ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (188.4ms)
+
+
+Started GET "/organograms/new" for ::1 at 2015-10-28 23:18:00 -0200
+Processing by OrganogramsController#new as HTML
+  Rendered organograms/_form.html.erb (10.0ms)
+  Rendered organograms/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 141ms (Views: 123.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/scaffolds.self-7cb87c73a0b1ab9df72a21fd42e8a1fcd2976364ac163ffad4ec4b4b7eed118d.css?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/countries.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/federations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/junior_companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/organograms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/assets/states.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:18:01 -0200
+
+
+Started GET "/organograms/new" for ::1 at 2015-10-28 23:18:59 -0200
+Processing by OrganogramsController#new as HTML
+  [1m[36mFederation Load (0.2ms)[0m  [1mSELECT "federations".* FROM "federations"[0m
+  [1m[35mJuniorCompany Load (0.2ms)[0m  SELECT "junior_companies".* FROM "junior_companies"
+  Rendered organograms/_form.html.erb (16.1ms)
+  Rendered organograms/new.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 100ms (Views: 98.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:59 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:59 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:59 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:18:59 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/scaffolds.self-7cb87c73a0b1ab9df72a21fd42e8a1fcd2976364ac163ffad4ec4b4b7eed118d.css?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/countries.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/federations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/junior_companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/organograms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/states.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-28 23:19:00 -0200
+
+
+Started POST "/organograms" for ::1 at 2015-10-28 23:19:53 -0200
+Processing by OrganogramsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pG46GIyDZlR6kZBQiaAWt1d1tj1s17z8cerBN8keksCUiSYOmwvcRzpw27ZbVBArj7t6dc4Z7gnnVqNKQUUegQ==", "organogram"=>{"federation_id"=>"1", "junior_company_id"=>"2", "date_initial(1i)"=>"2015", "date_initial(2i)"=>"10", "date_initial(3i)"=>"29", "date_final(1i)"=>"2015", "date_final(2i)"=>"10", "date_final(3i)"=>"29"}, "commit"=>"Create Organogram"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "organograms" ("federation_id", "junior_company_id", "date_initial", "date_final", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["federation_id", 1], ["junior_company_id", 2], ["date_initial", "2015-10-29"], ["date_final", "2015-10-29"], ["created_at", "2015-10-29 01:19:53.746003"], ["updated_at", "2015-10-29 01:19:53.746003"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/organograms/1
+Completed 302 Found in 8ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/organograms/1" for ::1 at 2015-10-28 23:19:53 -0200
+Processing by OrganogramsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mOrganogram Load (0.2ms)[0m  SELECT  "organograms".* FROM "organograms" WHERE "organograms"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered organograms/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 91ms (Views: 88.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/organograms" for ::1 at 2015-10-28 23:20:57 -0200
+Processing by OrganogramsController#index as HTML
+  [1m[36mOrganogram Load (0.2ms)[0m  [1mSELECT "organograms".* FROM "organograms"[0m
+  Rendered organograms/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateAreas (20151029012206)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "areas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "organogram_id" integer, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151029012206"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/organograms" for ::1 at 2015-10-28 23:28:02 -0200
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by OrganogramsController#index as HTML
+  [1m[36mOrganogram Load (0.2ms)[0m  [1mSELECT "organograms".* FROM "organograms"[0m
+  Rendered organograms/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 344ms (Views: 339.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/scaffolds.self-7cb87c73a0b1ab9df72a21fd42e8a1fcd2976364ac163ffad4ec4b4b7eed118d.css?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/organograms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/countries.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/federations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/junior_companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/states.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-28 23:28:02 -0200
+
+
+Started GET "/areas" for ::1 at 2015-10-28 23:28:04 -0200
+Processing by AreasController#index as HTML
+  [1m[35mArea Load (0.2ms)[0m  SELECT "areas".* FROM "areas"
+  Rendered areas/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 164ms (Views: 155.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/areas/new" for ::1 at 2015-10-28 23:28:06 -0200
+Processing by AreasController#new as HTML
+  [1m[36mOrganogram Load (0.2ms)[0m  [1mSELECT "organograms".* FROM "organograms"[0m
+  Rendered areas/_form.html.erb (7.9ms)
+  Rendered areas/new.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `name' for #<Organogram:0x007f88d29c59c0>):
+    14:   <div class="field">
+    15:     <%= f.label :organogram_id %><br>
+    16:     <!-- <%= f.number_field :organogram_id %> -->
+    17:     <%= collection_select(:area, :organogram_id, @organograms, :id, :name, {:prompt => false })  %>
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :name %><br>
+  app/views/areas/_form.html.erb:17:in `block in _app_views_areas__form_html_erb___2866972949702115696_70112767340860'
+  app/views/areas/_form.html.erb:1:in `_app_views_areas__form_html_erb___2866972949702115696_70112767340860'
+  app/views/areas/new.html.erb:3:in `_app_views_areas_new_html_erb__3396790530182573197_70112813788620'
+
+
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.2ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (87.3ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (199.0ms)
+
+
+Started GET "/areas/new" for ::1 at 2015-10-28 23:28:07 -0200
+Processing by AreasController#new as HTML
+  [1m[35mOrganogram Load (0.2ms)[0m  SELECT "organograms".* FROM "organograms"
+  Rendered areas/_form.html.erb (7.4ms)
+  Rendered areas/new.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `name' for #<Organogram:0x007f88d08e7e38>):
+    14:   <div class="field">
+    15:     <%= f.label :organogram_id %><br>
+    16:     <!-- <%= f.number_field :organogram_id %> -->
+    17:     <%= collection_select(:area, :organogram_id, @organograms, :id, :name, {:prompt => false })  %>
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :name %><br>
+  app/views/areas/_form.html.erb:17:in `block in _app_views_areas__form_html_erb___2866972949702115696_70112758591600'
+  app/views/areas/_form.html.erb:1:in `_app_views_areas__form_html_erb___2866972949702115696_70112758591600'
+  app/views/areas/new.html.erb:3:in `_app_views_areas_new_html_erb__3396790530182573197_70112758736540'
+
+
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.8ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (101.9ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (73.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (170.9ms)
+
+
+Started GET "/areas/new" for ::1 at 2015-10-28 23:30:22 -0200
+Processing by AreasController#new as HTML
+  [1m[36mOrganogram Load (0.6ms)[0m  [1mSELECT "organograms".* FROM "organograms"[0m
+  Rendered areas/_form.html.erb (33.1ms)
+  Rendered areas/new.html.erb within layouts/application (37.5ms)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 3.4ms)
+
+ActionView::Template::Error (undefined method `name' for #<Organogram:0x007f88d0d90ca0>):
+    14:   <div class="field">
+    15:     <%= f.label :organogram_id %><br>
+    16:     <!-- <%= f.number_field :organogram_id %> -->
+    17:     <!-- <%= collection_select(:area, :organogram_id, @organograms, :id, :name, {:prompt => false })  %> -->
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :name %><br>
+  app/views/areas/_form.html.erb:17:in `block in _app_views_areas__form_html_erb___2866972949702115696_70112812062800'
+  app/views/areas/_form.html.erb:1:in `_app_views_areas__form_html_erb___2866972949702115696_70112812062800'
+  app/views/areas/new.html.erb:3:in `_app_views_areas_new_html_erb__3396790530182573197_70112758736540'
+
+
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (37.4ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (35.5ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (286.2ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (202.6ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.4ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /Users/AndreLuiz/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (462.6ms)
+
+
+Started GET "/areas/new" for ::1 at 2015-10-28 23:30:41 -0200
+Processing by AreasController#new as HTML
+  [1m[35mOrganogram Load (0.6ms)[0m  SELECT "organograms".* FROM "organograms"
+  Rendered areas/_form.html.erb (11.8ms)
+  Rendered areas/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 312ms (Views: 308.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:42 -0200
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:42 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:42 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:42 -0200
+
+
+Started GET "/assets/scaffolds.self-7cb87c73a0b1ab9df72a21fd42e8a1fcd2976364ac163ffad4ec4b4b7eed118d.css?body=1" for ::1 at 2015-10-28 23:30:42 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/countries.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/junior_companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/organograms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/federations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/states.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-28 23:30:43 -0200
+
+
+Started GET "/areas/new" for ::1 at 2015-10-28 23:30:55 -0200
+Processing by AreasController#new as HTML
+  [1m[36mOrganogram Load (0.6ms)[0m  [1mSELECT "organograms".* FROM "organograms"[0m
+  Rendered areas/_form.html.erb (11.8ms)
+  Rendered areas/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 339ms (Views: 335.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/scaffolds.self-7cb87c73a0b1ab9df72a21fd42e8a1fcd2976364ac163ffad4ec4b4b7eed118d.css?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/organograms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/federations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/junior_companies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/countries.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/states.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-28 23:30:56 -0200
