@@ -13,18 +13,17 @@ class UsersController < ApplicationController
   end
 
   # GET /users/new
-  def new
-    @user = User.new
-  end
 
   # GET /users/1/edit
   def edit
+    @role = Role.all
   end
 
   # POST /users
   # POST /users.json
   def create
     @user = User.new(user_params)
+    @role = Role.all
     if @user.save
       log_in @user
       flash[:success] = "Welcome to the Sample App!"
