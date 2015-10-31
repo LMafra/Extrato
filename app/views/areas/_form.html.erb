@@ -20,6 +20,11 @@
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
+  <div class="field">
+    <%= f.label :subarea_id %><br>
+    <%= f.select :subarea_id, Area.all.collect { |a| [ a.name, a.id ] } %>
+  </div>
+  
   <div class="actions">
     <%= f.submit %>
   </div>
