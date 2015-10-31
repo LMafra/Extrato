@@ -1,15 +1,11 @@
 Rails.application.routes.draw do
 
+  root "static_pages#home"
+  devise_for :users, path: "auth", path_names: { sign_in: 'login', sign_out: 'logout', password: 'secret', confirmation: 'verification', unlock: 'unblock', registration: 'register', sign_up: 'cmon_let_me_in' }
   resources :questions
   resources :dimensions
   resources :perfomances
   resources :roles
-  root 'sessions#new'
-  get 'signup'  => 'users#new'
-  get 'login'   => 'sessions#new'
-  post 'login'   => 'sessions#create'
-  delete 'logout'  => 'sessions#destroy'
-  get '/users/:id' => 'static_pages#home'
   resources :areas
   resources :organograms
   resources :junior_companies
