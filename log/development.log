@@ -9636,3 +9636,165 @@ Processing by RolesController#index as HTML
   [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles"[0m
   Rendered roles/index.html.erb within layouts/application (1.5ms)
 Completed 200 OK in 157ms (Views: 156.0ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddRoleIdToRoles (20151031103224)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "roles" ADD "suprole_id" integer[0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_organogram_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_organogram_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_roles_on_suprole_id" ON "roles" ("suprole_id")
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151031103224"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_areas_on_subarea_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_areas_on_subarea_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_suprole_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_suprole_id' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_roles_on_organogram_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_roles_on_organogram_id' AND type='index'
+
+
+
+Started GET "/roles/new" for ::1 at 2015-10-31 08:36:02 -0200
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by RolesController#new as HTML
+  [1m[36mOrganogram Load (0.5ms)[0m  [1mSELECT "organograms".* FROM "organograms"[0m
+  [1m[35mFederation Load (0.2ms)[0m  SELECT  "federations".* FROM "federations" WHERE "federations"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFederation Load (0.2ms)[0m  [1mSELECT  "federations".* FROM "federations" WHERE "federations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mArea Load (0.3ms)[0m  SELECT "areas".* FROM "areas"
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles"[0m
+  Rendered roles/_form.html.erb (40.7ms)
+  Rendered roles/new.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 208ms (Views: 188.8ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/roles" for ::1 at 2015-10-31 08:36:17 -0200
+Processing by RolesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vsyb3tSRz2yQiuHU7Xw1MdVJMGnOlr7ia5p0jHn54vhmK4fIwxl1f9BrqjI/iDOtDYf8IWxY7Bf9Jhbx8aJuuQ==", "role"=>{"organogram_id"=>"2", "area_id"=>"3", "suprole_id"=>"2", "name"=>"Teste sub cargo"}, "commit"=>"Create Role"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "roles" ("name", "area_id", "organogram_id", "suprole_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Teste sub cargo"], ["area_id", 3], ["organogram_id", 2], ["suprole_id", 2], ["created_at", "2015-10-31 10:36:17.198123"], ["updated_at", "2015-10-31 10:36:17.198123"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/roles/3
+Completed 302 Found in 7ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/roles/3" for ::1 at 2015-10-31 08:36:17 -0200
+Processing by RolesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered roles/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 166ms (Views: 164.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/roles" for ::1 at 2015-10-31 08:36:19 -0200
+Processing by RolesController#index as HTML
+  [1m[35mRole Load (0.2ms)[0m  SELECT "roles".* FROM "roles"
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."id" IN (2)[0m
+  Rendered roles/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 177ms (Views: 175.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/roles/3/edit" for ::1 at 2015-10-31 08:36:21 -0200
+Processing by RolesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRole Load (0.1ms)[0m  SELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mOrganogram Load (0.2ms)[0m  [1mSELECT "organograms".* FROM "organograms"[0m
+  [1m[35mFederation Load (0.1ms)[0m  SELECT  "federations".* FROM "federations" WHERE "federations"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mFederation Load (0.1ms)[0m  [1mSELECT  "federations".* FROM "federations" WHERE "federations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mArea Load (0.2ms)[0m  SELECT "areas".* FROM "areas"
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles"[0m
+  Rendered roles/_form.html.erb (7.2ms)
+  Rendered roles/edit.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 159ms (Views: 156.7ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/roles/3" for ::1 at 2015-10-31 08:36:26 -0200
+Processing by RolesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F7Tscd1rbWAtdhWamsgcQd/c7xjbhM5BkoP8JaqoGSAnU/BnyuPXc22XXnxIPBrdBxIjUHlKnLQEP55YIvOVYQ==", "role"=>{"organogram_id"=>"2", "area_id"=>"3", "suprole_id"=>"3", "name"=>"Teste sub cargo"}, "commit"=>"Update Role", "id"=>"3"}
+  [1m[35mRole Load (0.1ms)[0m  SELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "roles" SET "suprole_id" = ?, "updated_at" = ? WHERE "roles"."id" = ?  [["suprole_id", 3], ["updated_at", "2015-10-31 10:36:26.571289"], ["id", 3]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/roles/3
+Completed 302 Found in 7ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/roles/3" for ::1 at 2015-10-31 08:36:26 -0200
+Processing by RolesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mRole Load (0.2ms)[0m  SELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered roles/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 162ms (Views: 159.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/roles" for ::1 at 2015-10-31 08:36:28 -0200
+Processing by RolesController#index as HTML
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles"[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."id" IN (3)
+  Rendered roles/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 186ms (Views: 184.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/roles/3/edit" for ::1 at 2015-10-31 08:36:29 -0200
+Processing by RolesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRole Load (0.1ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mOrganogram Load (0.2ms)[0m  SELECT "organograms".* FROM "organograms"
+  [1m[36mFederation Load (0.1ms)[0m  [1mSELECT  "federations".* FROM "federations" WHERE "federations"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mFederation Load (0.1ms)[0m  SELECT  "federations".* FROM "federations" WHERE "federations"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mArea Load (0.1ms)[0m  [1mSELECT "areas".* FROM "areas"[0m
+  [1m[35mRole Load (0.1ms)[0m  SELECT "roles".* FROM "roles"
+  Rendered roles/_form.html.erb (6.7ms)
+  Rendered roles/edit.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 157ms (Views: 154.8ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/roles/3" for ::1 at 2015-10-31 08:36:31 -0200
+Processing by RolesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rX6DopwtsTkUhxQ9RTy7ed65eybesCqEsFz/FB9t0TKdmZ+0i6ULKlRmX9uXyL3lBne3bnx+eHEm4J1plzZdcw==", "role"=>{"organogram_id"=>"2", "area_id"=>"3", "suprole_id"=>"1", "name"=>"Teste sub cargo"}, "commit"=>"Update Role", "id"=>"3"}
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "roles" SET "suprole_id" = ?, "updated_at" = ? WHERE "roles"."id" = ?[0m  [["suprole_id", 1], ["updated_at", "2015-10-31 10:36:31.903504"], ["id", 3]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/roles/3
+Completed 302 Found in 9ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/roles/3" for ::1 at 2015-10-31 08:36:31 -0200
+Processing by RolesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRole Load (0.1ms)[0m  [1mSELECT  "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered roles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 173ms (Views: 171.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/roles" for ::1 at 2015-10-31 08:36:33 -0200
+Processing by RolesController#index as HTML
+  [1m[35mRole Load (0.2ms)[0m  SELECT "roles".* FROM "roles"
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."id" IN (1)[0m
+  Rendered roles/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 236ms (Views: 234.4ms | ActiveRecord: 0.4ms)

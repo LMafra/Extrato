@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151031101625) do
+ActiveRecord::Schema.define(version: 20151031103224) do
 
   create_table "areas", force: :cascade do |t|
     t.integer  "organogram_id"
@@ -89,9 +89,11 @@ ActiveRecord::Schema.define(version: 20151031101625) do
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
     t.integer  "organogram_id"
+    t.integer  "suprole_id"
   end
 
   add_index "roles", ["organogram_id"], name: "index_roles_on_organogram_id"
+  add_index "roles", ["suprole_id"], name: "index_roles_on_suprole_id"
 
   create_table "states", force: :cascade do |t|
     t.string   "name"
