@@ -11,11 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20151031010533) do
-=======
-ActiveRecord::Schema.define(version: 20151031103224) do
->>>>>>> 8e37b6d0e1d52133bed0f26fab026eaf081ffd7e
+ActiveRecord::Schema.define(version: 20151031170755) do
 
   create_table "areas", force: :cascade do |t|
     t.integer  "organogram_id"
