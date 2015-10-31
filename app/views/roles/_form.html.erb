@@ -11,6 +11,11 @@
     </div>
   <% end %>
 
+    <div class="field">
+    <%= f.label :organogram_id %><br>
+    <%= f.select :organogram_id, Organogram.all.collect { |a| [ a.federation.name, a.id ] } %>
+  </div>
+
   <div class="field">
     <%= f.label :area_id %><br>
     <!-- <%= f.number_field :area_id %> -->

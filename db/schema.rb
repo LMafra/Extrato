@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151031012832) do
+ActiveRecord::Schema.define(version: 20151031101625) do
 
   create_table "areas", force: :cascade do |t|
     t.integer  "organogram_id"
@@ -86,9 +86,12 @@ ActiveRecord::Schema.define(version: 20151031012832) do
   create_table "roles", force: :cascade do |t|
     t.string   "name"
     t.integer  "area_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.integer  "organogram_id"
   end
+
+  add_index "roles", ["organogram_id"], name: "index_roles_on_organogram_id"
 
   create_table "states", force: :cascade do |t|
     t.string   "name"
