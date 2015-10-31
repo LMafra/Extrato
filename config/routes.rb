@@ -10,7 +10,6 @@ Rails.application.routes.draw do
   post 'login'   => 'sessions#create'
   delete 'logout'  => 'sessions#destroy'
   get '/users/:id' => 'static_pages#home'
-  resources :users
   resources :areas
   resources :organograms
   resources :junior_companies
