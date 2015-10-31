@@ -11,14 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20151031010533) do
+=======
+ActiveRecord::Schema.define(version: 20151031103224) do
+>>>>>>> 8e37b6d0e1d52133bed0f26fab026eaf081ffd7e
 
   create_table "areas", force: :cascade do |t|
     t.integer  "organogram_id"
     t.string   "name"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.integer  "subarea_id"
   end
+
+  add_index "areas", ["subarea_id"], name: "index_areas_on_subarea_id"
 
   create_table "cities", force: :cascade do |t|
     t.string   "name"
@@ -83,9 +90,14 @@ ActiveRecord::Schema.define(version: 20151031010533) do
   create_table "roles", force: :cascade do |t|
     t.string   "name"
     t.integer  "area_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.integer  "organogram_id"
+    t.integer  "suprole_id"
   end
+
+  add_index "roles", ["organogram_id"], name: "index_roles_on_organogram_id"
+  add_index "roles", ["suprole_id"], name: "index_roles_on_suprole_id"
 
   create_table "states", force: :cascade do |t|
     t.string   "name"

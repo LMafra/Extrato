@@ -4,7 +4,8 @@ class AreasController < ApplicationController
   # GET /areas
   # GET /areas.json
   def index
-    @areas = Area.all
+    #@areas = Area.all
+    @areas = Area.includes(:subarea).all
   end
 
   # GET /areas/1
@@ -71,6 +72,6 @@ class AreasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def area_params
-      params.require(:area).permit(:organogram_id, :name)
+      params.require(:area).permit(:organogram_id, :name, :subarea_id)
     end
 end

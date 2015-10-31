@@ -11,10 +11,20 @@
     </div>
   <% end %>
 
+    <div class="field">
+    <%= f.label :organogram_id %><br>
+    <%= f.select :organogram_id, Organogram.all.collect { |a| [ a.federation.name, a.id ] } %>
+  </div>
+
   <div class="field">
     <%= f.label :area_id %><br>
     <!-- <%= f.number_field :area_id %> -->
     <%= collection_select(:role, :area_id, @areas, :id, :name, {:prompt => false })  %>
+  </div>
+
+  <div class="field">
+    <%= f.label :suprole_id %><br>
+    <%= f.select :suprole_id, Role.all.collect { |a| [ a.name, a.id ] } %>
   </div>
 
   <div class="field">
