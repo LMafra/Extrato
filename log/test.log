@@ -33,3 +33,35 @@
   [1m[35m (100.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151029004629')
   [1m[36m (100.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151029052200')[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (121.6ms)[0m  [1mCREATE TABLE "areas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "organogram_id" integer, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (100.1ms)[0m  CREATE TABLE "cities" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "state_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (133.9ms)[0m  [1mCREATE TABLE "countries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (133.4ms)[0m  CREATE TABLE "dimensions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" varchar, "perfomance_id" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (133.4ms)[0m  [1mCREATE TABLE "federations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "abbreviation" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (100.3ms)[0m  CREATE TABLE "junior_companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "federation_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (368.9ms)[0m  [1mCREATE TABLE "organograms" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "federation_id" integer, "junior_company_id" integer, "date_initial" date, "date_final" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (111.0ms)[0m  CREATE TABLE "perfomances" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "junior_companies_id" varchar, "federations_id" varchar, "role_id" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (111.4ms)[0m  [1mCREATE TABLE "questions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "dimension_id" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (123.0ms)[0m  CREATE TABLE "roles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "area_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (133.6ms)[0m  [1mCREATE TABLE "states" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "country_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (144.7ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "password" varchar, "role_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar, "remember_digest" varchar) 
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (179.5ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (108.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (111.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (113.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151029200831')
+  [1m[36m (112.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151029003309')[0m
+  [1m[35m (145.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151029011445')
+  [1m[36m (122.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151029012206')[0m
+  [1m[35m (145.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151029005345')
+  [1m[36m (167.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151029193053')[0m
+  [1m[35m (167.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151029003200')
+  [1m[36m (112.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151029175043')[0m
+  [1m[35m (133.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151029005454')
+  [1m[36m (103.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151029004316')[0m
+  [1m[35m (123.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151029145056')
+  [1m[36m (145.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151029004425')[0m
+  [1m[35m (144.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151029004629')
+  [1m[36m (156.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151029052200')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
