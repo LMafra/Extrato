@@ -2,30 +2,42 @@ class Users::RegistrationsController < Devise::RegistrationsController
 # before_filter :configure_sign_up_params, only: [:create]
 # before_filter :configure_account_update_params, only: [:update]
 
+  protect_from_forgery with: :exception
+
+  before_filter :configure_permitted_parameters, if: :devise_controller?
+
+  protected
+
+    def configure_permitted_parameters
+      devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:role_id, :email, :password) }
+      devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:role_id, :email, :password) }
+    end
+
   # GET /resource/sign_up
-  # def new
+  def new
   #   super
-  # end
+  end
 
   # POST /resource
-  # def create
+  def create
   #   super
-  # end
+  end
 
   # GET /resource/edit
-  # def edit
+  def edit
   #   super
-  # end
+  end
 
   # PUT /resource
-  # def update
+  def update
   #   super
-  # end
+  end
 
   # DELETE /resource
-  # def destroy
+  def destroy
   #   super
-  # end
+  end
+
 
   # GET /resource/cancel
   # Forces the session data which is usually expired after sign
