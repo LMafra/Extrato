@@ -3,9 +3,17 @@
 	<title></title>
 </head>
 <body>
-	<h1>Avaliação de Desempenho</h1>
+	<div class="menu">
+		<ul>
+			<li><%= link_to "Home", root_path%></li>	
+			<li><%= link_to "Login", new_user_session_path%></li>	
+			<li><%= link_to "Log out", destroy_user_session_path, :method => :delete%></li>
+		</ul>
+	</div>
+	<div class="page">
+	<h1 id="title">Avaliação de Desempenho</h1>
 	<p>Efetue o login para responder a sua AD</p>
-	<%= link_to "Log out", destroy_user_session_path, :method => :delete%>
-
+	</div>
+	
 </body>
 </html>
