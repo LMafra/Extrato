@@ -6,12 +6,8 @@ class Users::RegistrationsController < Devise::RegistrationsController
 
   before_filter :configure_permitted_parameters, if: :devise_controller?
 
-  protected
 
-    def configure_permitted_parameters
-      devise_parameter_sanitizer.for(:sign_up) { |u| u.permit(:role_id, :email, :password) }
-      devise_parameter_sanitizer.for(:account_update) { |u| u.permit(:role_id, :email, :password) }
-    end
+
 
   # GET /resource/sign_up
   def new
