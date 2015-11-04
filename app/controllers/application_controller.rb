@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
   def configure_permitted_parameters
   	devise_parameter_sanitizer.for(:sign_up) << :role_id
   end
+  def after_sign_in_path_for(resource)
+  	perfomance_evaluation_path
+  end
+
 end

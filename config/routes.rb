@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
 
-  root "static_pages#home"
+  devise_scope :user do
+    root to: "devise/sessions#new"
+  end
+  get "/perfomance_evaluation" => "static_pages#perfomance_evaluation"
+  get "/home" => "static_pages#home"
   devise_for :users, :controllers => { registrations: 'devise/registrations' }
   resources :questions
   resources :dimensions
@@ -14,6 +18,7 @@ Rails.application.routes.draw do
   resources :states
   resources :countries
   resources :roles
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

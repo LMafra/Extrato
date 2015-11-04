@@ -6,9 +6,6 @@ class Users::RegistrationsController < Devise::RegistrationsController
 
   before_filter :configure_permitted_parameters, if: :devise_controller?
 
-
-
-
   # GET /resource/sign_up
   def new
   #   super
@@ -33,6 +30,11 @@ class Users::RegistrationsController < Devise::RegistrationsController
   def destroy
   #   super
   end
+
+  def after_sign_up_path_for(resource)
+    '/home'
+  end
+
 
 
   # GET /resource/cancel
