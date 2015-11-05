@@ -13,6 +13,15 @@
 		<nav class="navbar-default navbar-side" role="navigation">
     	<div class="sidebar-collapse">
       		<ul class="nav" id="main-menu">
+            <li>
+              <div class="user-img-div">
+                <img src="assets/img/user.png" class="img-thumbnail" />
+                <div class="inner-text">
+                  <br />
+                  <small></small>
+                </div>
+              </div>
+            </li>
         		<li><%= link_to "Home", home_path%></li>
         		</li>
         		<li><%= link_to "Log out", destroy_user_session_path, :method => :delete%></li>
@@ -29,6 +38,18 @@
         		</div>
       		</div>
     	</div>
-  	</div>
+  </div>
+  <div id="footer-sec">
+    &copy; 2015 Concentro | Design By : <a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a>
+  </div>
+  <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+       <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
 </body>
 </html>

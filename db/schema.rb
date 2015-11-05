@@ -71,7 +71,7 @@ ActiveRecord::Schema.define(version: 20151101182724) do
     t.string   "name"
     t.string   "junior_companies_id"
     t.string   "federations_id"
-    t.string   "role_id"
+    t.integer  "role_id"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
   end
