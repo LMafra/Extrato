@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_scope :user do
     root to: "devise/sessions#new"
   end
-  get "/perfomance_evaluation" => "static_pages#perfomance_evaluation"
+  get "/perfomance_evaluation/:role_id" => "static_pages#perfomance_evaluation"
   get "/home" => "static_pages#home"
   get "/performance_user" => "static_pages#performance_user"
   get "/ajax_perfomance_user_save" => "static_pages#ajax_perfomance_user_save"

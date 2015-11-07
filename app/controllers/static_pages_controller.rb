@@ -40,14 +40,15 @@ class StaticPagesController < ApplicationController
     @arrUserEvaluated = Array.new
 
     #recuperando o cargo
-    user = User.find(userId);
+    #user = User.find(userId)
+    roleId = params[:role_id]
 
     #percorre o array de usuários que tenho que avaliar
     arrUserIdMaybeEvaluated.each do |userIdMayBeEvaluated|
       #recupera o usuário que tem que ser avaliado
       user = User.find(userIdMayBeEvaluated)
       #verifica se este usuario é do mesmo tipo que o cargo selecionado
-      if user.role_id == user.role_id
+      if user.role_id == roleId
         #criando o array dos usuários que devo avaliar
         @arrUserEvaluated.push(user)
       end
@@ -55,7 +56,7 @@ class StaticPagesController < ApplicationController
 
 
     #recuperando a avaliação de desempenho baseado no cargo
-    @perfomance = Perfomance.includes(:dimensions).where(role_id: user.role_id).first
+    @perfomance = Perfomance.includes(:dimensions).where(role_id: roleId).first
 
     #recuperando as dimensões
     #@dimension = Dimension.where(perfomance_id: @perfomance.id)
