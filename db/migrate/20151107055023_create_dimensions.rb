@@ -1,6 +1,6 @@
 class CreateDimensions < ActiveRecord::Migration
   def 
-  	drop_table :dimensions
+  	drop_table:dimensions
     create_table :dimensions do |t|
       t.string :name
       t.string :description
