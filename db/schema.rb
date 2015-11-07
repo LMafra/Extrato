@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151101182724) do
+ActiveRecord::Schema.define(version: 20151107035455) do
 
   create_table "areas", force: :cascade do |t|
     t.integer  "organogram_id"
@@ -40,9 +40,12 @@ ActiveRecord::Schema.define(version: 20151101182724) do
     t.string   "name"
     t.string   "description"
     t.string   "perfomance_id"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.integer  "performance_id"
   end
+
+  add_index "dimensions", ["performance_id"], name: "index_dimensions_on_performance_id"
 
   create_table "federations", force: :cascade do |t|
     t.string   "name"
@@ -67,21 +70,41 @@ ActiveRecord::Schema.define(version: 20151101182724) do
     t.datetime "updated_at",        null: false
   end
 
+  create_table "perfomance_answers", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "userLogged_id"
+    t.integer  "perfomance_id"
+    t.integer  "dimension_id"
+    t.integer  "question_id"
+    t.integer  "value"
+    t.string   "text"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  add_index "perfomance_answers", ["dimension_id"], name: "index_perfomance_answers_on_dimension_id"
+  add_index "perfomance_answers", ["perfomance_id"], name: "index_perfomance_answers_on_perfomance_id"
+  add_index "perfomance_answers", ["question_id"], name: "index_perfomance_answers_on_question_id"
+  add_index "perfomance_answers", ["userLogged_id"], name: "index_perfomance_answers_on_userLogged_id"
+  add_index "perfomance_answers", ["user_id"], name: "index_perfomance_answers_on_user_id"
+
   create_table "perfomances", force: :cascade do |t|
     t.string   "name"
     t.string   "junior_companies_id"
     t.string   "federations_id"
-    t.string   "role_id"
+    t.integer  "role_id"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
   end
 
   create_table "questions", force: :cascade do |t|
-    t.string   "name"
-    t.string   "dimension_id"
+    t.string   "question"
+    t.integer  "dimension_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
   end
+
+  add_index "questions", ["dimension_id"], name: "index_questions_on_dimension_id"
 
   create_table "roles", force: :cascade do |t|
     t.string   "name"

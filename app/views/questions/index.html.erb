@@ -14,7 +14,7 @@
   <tbody>
     <% @questions.each do |question| %>
       <tr>
-        <td><%= question.name %></td>
+        <td><%= question.question %></td>
         <td><%= question.dimension_id %></td>
         <td><%= link_to 'Show', question %></td>
         <td><%= link_to 'Edit', edit_question_path(question) %></td>

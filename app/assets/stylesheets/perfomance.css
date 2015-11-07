@@ -1,0 +1,22 @@
+#wrapper-form{
+	/*width: 1800px;*/
+	/*background-color: #f99;*/
+}
+
+.wrapper-dimension{
+	margin-bottom: 30px;
+    border-bottom: 1px dashed #00CA79;
+	/*background-color: #9f9;*/
+	/*display: inline-block;*/
+/*	padding:2.5%;
+	margin: 2.5%;
+*/}
+
+textarea{
+	width: 80%;
+	height: 100px;
+}
+
+.success-ad{
+	background-color: #dff0d8 !important;
+}

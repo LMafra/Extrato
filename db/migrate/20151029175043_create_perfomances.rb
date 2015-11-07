@@ -1,5 +1,4 @@
 class CreatePerfomances < ActiveRecord::Migration
-	drop_table :perfomances
   def change
 
     create_table :perfomances do |t|
