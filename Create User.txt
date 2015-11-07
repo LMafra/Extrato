@@ -1,0 +1,70 @@
+Pres:idência
+	u = User.create!({:id=>29, :email=>"lucascosta@concentro.org.br",:password => "TsdkZm6G", :password_confirmation => "TsdkZm6G", :role_id=> 1})	
+	RI
+		u = User.create!({:id=>9, :email=>"caiovivan@concentro.org.br",:password => "df9649EL", :password_confirmation => "df9649EL", :role_id=> 2})
+		u = User.create!({:id=>21, :email=>"helenagalvani@concentro.org.br",:password => "munzNDU2", :password_confirmation => "munzNDU2", :role_id=> 3})		
+		u = User.create!({:id=>35, :email=>"luizfrancois@concentro.org.br",:password => "2SnV5Zk6", :password_confirmation => "2SnV5Zk6", :role_id=> 3})
+		u = User.create!({:id=>49, :email=>"tuliomoraes@concentro.org.br",:password => "uKwCbUZX", :password_confirmation => "uKwCbUZX", :role_id=> 3})
+Vice-Pres:idência
+	u = User.create!({:id=>23, :email=>"henriquetagliari@concentro.org.br",:password => "AGHRguc9", :password_confirmation => "AGHRguc9", :role_id=> 1})	
+	Gestão
+		u = User.create!({:id=>36, :email=>"marcelorodrigues@concentro.org.br",:password => "5H8apaR9", :password_confirmation => "5H8apaR9", :role_id=> 2})
+		u = User.create!({:id=>7, :email=>"anaoyafuco@concentro.org.br",:password => "ejbmPXh2", :password_confirmation => "ejbmPXh2", :role_id=> 3})
+		u = User.create!({:id=>17, :email=>"gabriela:idar@concentro.org.br",:password => "apB2QwEr", :password_confirmation => "apB2QwEr", :role_id=> 3})
+		u = User.create!({:id=>39, :email=>"mhamassaki@concentro.org.br",:password => "dJLPnGzA", :password_confirmation => "dJLPnGzA", :role_id=> 3})		
+	TI
+		u = User.create!({:id=>8, :email=>"andregiampaolo@concentro.org.br",:password => "d7GmLzNW", :password_confirmation => "d7GmLzNW", :role_id=> 2})
+		u = User.create!({:id=>30, :email=>"lucasmafra@concentro.org.br",:password => "wafWhC59", :password_confirmation => "wafWhC59", :role_id=> 3})		 		
+Comunicação
+	u = User.create!({:id=>41, :email=>"otavioandrade@concentro.org.br",:password => "zmTmHMjp", :password_confirmation => "zmTmHMjp", :role_id=> 1})
+	RP
+		u = User.create!({:id=>4, :email=>"anafonseca@concentro.org.br",:password => "mdhAeL4E", :password_confirmation => "mdhAeL4E", :role_id=> 2})
+		u = User.create!({:id=>1, :email=>"adalbertosampaio@concentro.org.br",:password => "gabBgqRq", :password_confirmation => "gabBgqRq", :role_id=> 3})
+		u = User.create!({:id=>42, :email=>"raphaelecaixeta@concentro.org.br",:password => "Cdmqvdkr", :password_confirmation => "Cdmqvdkr", :role_id=> 3})
+		u = User.create!({:id=>43, :email=>"rebecagarcia@concentro.org.br",:password => "h8bjdD3Y", :password_confirmation => "h8bjdD3Y", :role_id=> 3})
+	Inte
+		u = User.create!({:id=>27, :email=>"joaoalonso@concentro.org.br",:password => "eH69wR96", :password_confirmation => "eH69wR96", :role_id=> 2})
+		u = User.create!({:id=>10, :email=>"carolinaviegas@concentro.org.br",:password => "7WJn5GVd", :password_confirmation => "7WJn5GVd", :role_id=> 3})
+		u = User.create!({:id=>16, :email=>"fernandacostandrade@concentro.org.br",:password => "4vJJfW2W", :password_confirmation => "4vJJfW2W", :role_id=> 3})
+		u = User.create!({:id=>12, :email=>"eduardogonzalez@concentro.org.br",:password => "wMXAfAMh", :password_confirmation => "wMXAfAMh", :role_id=> 3})
+		u = User.create!({:id=>46, :email=>"thainalima@concentro.org.br",:password => "bNxgsAfe", :password_confirmation => "bNxgsAfe", :role_id=> 3})		
+	Publi
+		u = User.create!({:id=>13, :email=>"dante.akira@concretaconsultoria.com.br",:password => "LmZRrrdd", :password_confirmation => "LmZRrrdd", :role_id=> 3})
+	 	u = User.create!({:id=>14, :email=>"emilly.ramos@factoagencia.com.br",:password => "SmvW44LF", :password_confirmation => "SmvW44LF", :role_id=> 3})
+ 		u = User.create!({:id=>15, :email=>"paivacarolyna@gmail.com",:password => "Gq2fUeBV", :password_confirmation => "Gq2fUeBV", :role_id=> 3})
+ 		u = User.create!({:id=>25, :email=>"iresendesilva@concentro.org.br",:password => "GK5Pw6np", :password_confirmation => "GK5Pw6np", :role_id=> 3})
+Desenvolvimento
+	 u = User.create!({:id=>32, :email=>"luisamarini@concentro.org.br",:password => "FUzesJqP", :password_confirmation => "FUzesJqP", :role_id=> 1})
+	AeS
+		u = User.create!({:id=>38, :email=>"marioguedes@concentro.org.br",:password => "Dqwe536n", :password_confirmation => "Dqwe536n", :role_id=> 2})		
+		u = User.create!({:id=>11, :email=>"clarissaalho@concentro.org.br",:password => "DFy656GH", :password_confirmation => "DFy656GH", :role_id=> 3})
+		u = User.create!({:id=>19, :email=>"gabriellobo@concentro.org.br",:password => "V2vCzC4a", :password_confirmation => "V2vCzC4a", :role_id=> 3})
+	 	u = User.create!({:id=>20, :email=>"gabrielperucchi@concentro.org.br",:password => "VJEArK8P", :password_confirmation => "VJEArK8P", :role_id=> 3})
+	 	u = User.create!({:id=>48, :email=>"thayannesales@concentro.org.br",:password => "v4sL5yRF", :password_confirmation => "v4sL5yRF", :role_id=> 3})
+	Conhe
+		u = User.create!({:id=>5, :email=>"anagabriela@concentro.org.br",:password => "VcEQf7kA", :password_confirmation => "VcEQf7kA", :role_id=> 2})
+		u = User.create!({:id=>31, :email=>"lucasrodrigues@concentro.org.br",:password => "Ufzm5VzG", :password_confirmation => "Ufzm5VzG", :role_id=> 3})
+		u = User.create!({:id=>37, :email=>"marinatorres@concentro.org.br",:password => "8hkNAhHK", :password_confirmation => "8hkNAhHK", :role_id=> 3})
+		u = User.create!({:id=>40, :email=>"monicamaranhao@concentro.org.br",:password => "c5aTUbgU", :password_confirmation => "c5aTUbgU", :role_id=> 3})		
+Administrativo Financeiro
+	u = User.create!({:id=>2, :email=>"alannogales@concentro.org.br",:password => "REuXAjuq", :password_confirmation => "REuXAjuq", :role_id=> 1})	
+	Finan
+		u = User.create!({:id=>34, :email=>"luizedmiranda@concentro.org.br",:password => "bsybfXL5", :password_confirmation => "bsybfXL5", :role_id=> 2})	
+		u = User.create!({:id=>50, :email=>"victorho@concentro.org.br",:password => "NNjRk7Xb", :password_confirmation => "NNjRk7Xb", :role_id=> 3})		
+	RegExp
+		u = User.create!({:id=>28, :email=>"kiepherkennedy@concentro.org.br",:password => "pQda9B58", :password_confirmation => "pQda9B58", :role_id=> 2})
+		u = User.create!({:id=>6, :email=>"analuizaprado@concentro.org.br",:password => "NAD9EwKp", :password_confirmation => "NAD9EwKp", :role_id=> 3})
+		u = User.create!({:id=>24, :email=>"igorcaldeira@concentro.org.br",:password => "DN5RSHGt", :password_confirmation => "DN5RSHGt", :role_id=> 3})
+ 		u = User.create!({:id=>26, :email=>"isabelbarcelos@concentro.org.br",:password => "BtEUUpre", :password_confirmation => "BtEUUpre", :role_id=> 3})
+ 		u = User.create!({:id=>45, :email=>"tayanenunes@concentro.org.br",:password => "w8zjvSup", :password_confirmation => "w8zjvSup", :role_id=> 3})				
+Gestão de Pessoas
+	u = User.create!({:id=>51, :email=>"victormedeiros@concentro.org.br",:password => "TuPkhxQ2", :password_confirmation => "TuPkhxQ2", :role_id=> 1})
+	Coord GP
+		u = User.create!({:id=>33, :email=>"luizamonteiro@concentro.org.br",:password => "jqCRZ4HU", :password_confirmation => "jqCRZ4HU", :role_id=> 2})
+		u = User.create!({:id=>3, :email=>"anabarbosa@concentro.org.br",:password => "7nY5vJYx", :password_confirmation => "7nY5vJYx", :role_id=> 3})
+ 		u = User.create!({:id=>18, :email=>"gabrielavieira@concentro.org.br",:password => "GyG3a7hK", :password_confirmation => "GyG3a7hK", :role_id=> 3})
+ 		u = User.create!({:id=>22, :email=>"henriqueneres@concentro.org.br",:password => "W6mYRvVz", :password_confirmation => "W6mYRvVz", :role_id=> 3})
+ 		u = User.create!({:id=>44, :email=>"sathyagimenes@concentro.org.br",:password => "tcmU4VsS", :password_confirmation => "tcmU4VsS", :role_id=> 3})
+
+Conselho
+	u = User.create!({:id=>47, :email=>"thalesvinkler@concentro.org.br",:password => "12345678", :password_confirmation => "12345678", :role_id=> 1})
