@@ -12,7 +12,7 @@ class StaticPagesController < ApplicationController
 
     #vinculo dos usuários que vão se avaliar
 
-    avaliacao = {29 => [9,29,23,41,32,2,51], 23 => [29,23,41,32,2,51,36,8] , 
+    evaluatedMapHash = {29 => [9,29,23,41,32,2,51], 23 => [29,23,41,32,2,51,36,8] , 
       41 => [29,23,41,32,2,51,4,27,13,14,15,25] , 32 => [29,23,41,32,2,51,38,5], 
       2 => [29,23,41,32,2,51,34,28], 51 => [29,23,41,32,2,51,33] , 
       9 => [9,21,35,49,29], 21 => [9,21,35,49], 
@@ -28,8 +28,7 @@ class StaticPagesController < ApplicationController
       37 => [5,31,37,40], 40 => [5,31,37,40], 34 => [34,50,2], 50 => [34,50], 
       28 => [28,6,24,26,45,2], 6 => [28,6,24,26,45], 
       24 => [28,6,24,26,45], 26 => [28,6,24,26,45], 45 => [28,6,24,26,45],
-      33 => [33,3,22,44,51], 3 => [33,3,22,44], 22 => [33,3,22,44], 44 => [33,3,22,44]}
-
+      33 => [33,3,22,44,51], 3 => [1,2], 22 => [33,3,22,44], 44 => [33,3,22,44]}
 
 
     #recupera os usuários qu ele tem que avaliar
@@ -88,14 +87,14 @@ class StaticPagesController < ApplicationController
     #ele esta enviando um feedback?
     if value == nil
       PerfomanceAnswer.where(
-        userLogged_id: userIdLogged,
+        userLogged: userIdLogged,
         user_id: userId,
         perfomance_id: perfomanceId,
         dimension_id: dimensionId, 
         ).first
     else 
       PerfomanceAnswer.where(
-        userLogged_id: userIdLogged,
+        userLogged: userIdLogged,
         user_id: userId,
         perfomance_id: perfomanceId,
         dimension_id: dimensionId, 
@@ -113,7 +112,7 @@ class StaticPagesController < ApplicationController
     if answerExists == nil
       #criando o registro
       registry = PerfomanceAnswer.create({
-        userLogged_id: userIdLogged, 
+        userLogged: userIdLogged, 
         user_id: userId, 
         perfomance_id: perfomanceId,
         dimension_id: dimensionId, 
@@ -149,7 +148,7 @@ class StaticPagesController < ApplicationController
 
   def performance_user
 
-    avaliacao = {29 => [9,29,23,41,32,2,51], 23 => [29,23,41,32,2,51,36,8] , 
+    evaluatedMapHash = {29 => [9,29,23,41,32,2,51], 23 => [29,23,41,32,2,51,36,8] , 
       41 => [29,23,41,32,2,51,4,27,13,14,15,25] , 32 => [29,23,41,32,2,51,38,5], 
       2 => [29,23,41,32,2,51,34,28], 51 => [29,23,41,32,2,51,33] , 
       9 => [9,21,35,49,29], 21 => [9,21,35,49], 

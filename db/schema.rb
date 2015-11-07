@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151107035455) do
+ActiveRecord::Schema.define(version: 20151107051439) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,13 +42,12 @@ ActiveRecord::Schema.define(version: 20151107035455) do
   create_table "dimensions", force: :cascade do |t|
     t.string   "name"
     t.string   "description"
-    t.string   "perfomance_id"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
-    t.integer  "performance_id"
+    t.integer  "perfomance_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
-  add_index "dimensions", ["performance_id"], name: "index_dimensions_on_performance_id"
+  add_index "dimensions", ["perfomance_id"], name: "index_dimensions_on_perfomance_id", using: :btree
 
   create_table "federations", force: :cascade do |t|
     t.string   "name"
@@ -75,7 +74,7 @@ ActiveRecord::Schema.define(version: 20151107035455) do
 
   create_table "perfomance_answers", force: :cascade do |t|
     t.integer  "user_id"
-    t.integer  "userLogged_id"
+    t.integer  "userLogged"
     t.integer  "perfomance_id"
     t.integer  "dimension_id"
     t.integer  "question_id"
@@ -85,11 +84,10 @@ ActiveRecord::Schema.define(version: 20151107035455) do
     t.datetime "updated_at",    null: false
   end
 
-  add_index "perfomance_answers", ["dimension_id"], name: "index_perfomance_answers_on_dimension_id"
-  add_index "perfomance_answers", ["perfomance_id"], name: "index_perfomance_answers_on_perfomance_id"
-  add_index "perfomance_answers", ["question_id"], name: "index_perfomance_answers_on_question_id"
-  add_index "perfomance_answers", ["userLogged_id"], name: "index_perfomance_answers_on_userLogged_id"
-  add_index "perfomance_answers", ["user_id"], name: "index_perfomance_answers_on_user_id"
+  add_index "perfomance_answers", ["dimension_id"], name: "index_perfomance_answers_on_dimension_id", using: :btree
+  add_index "perfomance_answers", ["perfomance_id"], name: "index_perfomance_answers_on_perfomance_id", using: :btree
+  add_index "perfomance_answers", ["question_id"], name: "index_perfomance_answers_on_question_id", using: :btree
+  add_index "perfomance_answers", ["user_id"], name: "index_perfomance_answers_on_user_id", using: :btree
 
   create_table "perfomances", force: :cascade do |t|
     t.string   "name"
@@ -107,7 +105,7 @@ ActiveRecord::Schema.define(version: 20151107035455) do
     t.datetime "updated_at",   null: false
   end
 
-  add_index "questions", ["dimension_id"], name: "index_questions_on_dimension_id"
+  add_index "questions", ["dimension_id"], name: "index_questions_on_dimension_id", using: :btree
 
   create_table "roles", force: :cascade do |t|
     t.string   "name"
@@ -147,4 +145,10 @@ ActiveRecord::Schema.define(version: 20151107035455) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
+  add_foreign_key "dimensions", "perfomances"
+  add_foreign_key "perfomance_answers", "dimensions"
+  add_foreign_key "perfomance_answers", "perfomances"
+  add_foreign_key "perfomance_answers", "questions"
+  add_foreign_key "perfomance_answers", "users"
+  add_foreign_key "questions", "dimensions"
 end
