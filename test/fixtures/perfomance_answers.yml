@@ -2,7 +2,7 @@
 
 one:
   user_id: 
-  userLogged_id: 
+  userLogged: 1
   perfomance_id: 
   dimension_id: 
   question_id: 
@@ -11,7 +11,7 @@ one:
 
 two:
   user_id: 
-  userLogged_id: 
+  userLogged: 1
   perfomance_id: 
   dimension_id: 
   question_id: 
