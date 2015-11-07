@@ -3,7 +3,6 @@ class CreateDimensions < ActiveRecord::Migration
     create_table :dimensions do |t|
       t.string :name
       t.string :description
-      t.string :perfomance_id
 
       t.timestamps null: false
     end
