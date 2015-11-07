@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20151101182724) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "areas", force: :cascade do |t|
     t.integer  "organogram_id"
     t.string   "name"
@@ -21,7 +24,7 @@ ActiveRecord::Schema.define(version: 20151101182724) do
     t.integer  "subarea_id"
   end
 
-  add_index "areas", ["subarea_id"], name: "index_areas_on_subarea_id"
+  add_index "areas", ["subarea_id"], name: "index_areas_on_subarea_id", using: :btree
 
   create_table "cities", force: :cascade do |t|
     t.string   "name"
@@ -92,8 +95,8 @@ ActiveRecord::Schema.define(version: 20151101182724) do
     t.integer  "suprole_id"
   end
 
-  add_index "roles", ["organogram_id"], name: "index_roles_on_organogram_id"
-  add_index "roles", ["suprole_id"], name: "index_roles_on_suprole_id"
+  add_index "roles", ["organogram_id"], name: "index_roles_on_organogram_id", using: :btree
+  add_index "roles", ["suprole_id"], name: "index_roles_on_suprole_id", using: :btree
 
   create_table "states", force: :cascade do |t|
     t.string   "name"
@@ -118,7 +121,7 @@ ActiveRecord::Schema.define(version: 20151101182724) do
     t.integer  "role_id"
   end
 
-  add_index "users", ["email"], name: "index_users_on_email", unique: true
-  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
 end
