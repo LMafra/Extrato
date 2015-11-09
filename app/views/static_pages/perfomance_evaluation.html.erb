@@ -36,10 +36,6 @@
           			<h1 class="page-head-line">Avaliação de Desempenho</h1>
           			<h1 class="page-subhead-line">Vamos fazer de uma maneira legal?</h1>
 
-                <% @answers.each do |answer|%>
-                  <%= answer.user_id%>
-                <% end %>
-
                 <div id="wrapper-form">
                   <% @perfomance.dimensions.each do |dimension| %>
                     <div class="wrapper-dimension">
@@ -55,21 +51,41 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <% dimension.questions.each do |question| %>
-                            <tr>
-                              <td><%= question.question %></td>
-                                <% @arrUserEvaluated.each do |user| %>
-                                  <td>
-                                    <% nameCheckbox = "cb_#{user.id}_#{@perfomance.id}_#{dimension.id}_#{question.id}" %>
-                                    <% 5.times do |i| %>
-                                      <% i = i+1%>
-                                      <input class="answer" type="radio" name="<%= nameCheckbox%>" data-user-id="<%= user.id %>" data-perfomance-id="<%= @perfomance.id%>" data-dimension-id="<%= dimension.id %>" data-question-id="<%= question.id %>" value="<%= i%>"/> <%= i%>
-                                    <%end %>
-                                    <% i = 6%>
-                                    <input class="answer" type="radio" name="<%= nameCheckbox%>" data-user-id="<%= user.id %>" data-perfomance-id="<%= @perfomance.id%>" data-dimension-id="<%= dimension.id %>" data-question-id="<%= question.id %>" value="<%= i%>"/> Não sei avaliar
-                                  </td>
-                                <% end %>
-                            </tr>
+                        <% if dimension.questions.size > 0 %>
+                          <% dimension.questions.each do |question| %>
+                              <tr>
+                                <td><%= question.question %></td>
+                                  <% @arrUserEvaluated.each do |user| %>
+                                    <td>
+                                      <% nameCheckbox = "cb_#{user.id}_#{@perfomance.id}_#{dimension.id}_#{question.id}" %>
+                                      <% 5.times do |i| %>
+                                        <% checked = ""%>
+                                        <% i = i+1%>
+                                        
+                                        <% if @userPerfomanceAnswer[nameCheckbox] != nil %>
+                                          <% if @userPerfomanceAnswer[nameCheckbox] == i %>
+                                            <% checked = 'checked="checked"'%>
+                                          <% end %>
+                                        <% end %>
+
+                                        <input <%= checked%> class="answer" type="radio" name="<%= nameCheckbox%>" data-user-id="<%= user.id %>" data-perfomance-id="<%= @perfomance.id%>" data-dimension-id="<%= dimension.id %>" data-question-id="<%= question.id %>" value="<%= i%>"/> <%= i%>
+                                      <%end %>
+
+                                      <% i = 6%>
+                                      <% checked = ""%>
+                                        
+                                      <% if @userPerfomanceAnswer[nameCheckbox] != nil %>
+                                        <% if @userPerfomanceAnswer[nameCheckbox] == i %>
+                                          <% checked = 'checked="checked"'%>
+                                        <% end %>
+                                      <% end %>
+
+
+                                      <input <%= checked%> class="answer" type="radio" name="<%= nameCheckbox%>" data-user-id="<%= user.id %>" data-perfomance-id="<%= @perfomance.id%>" data-dimension-id="<%= dimension.id %>" data-question-id="<%= question.id %>" value="<%= i%>"/> Não sei avaliar
+                                    </td>
+                                  <% end %>
+                              </tr>
+                          <% end %>
                         <% end %>
                         
                       </tbody>
@@ -78,33 +94,16 @@
                       <% @arrUserEvaluated.each do |user| %>
                         <p>Escreva o seu feedback sobre o <%= user.email %> na dimensão de <%= dimension.name %></p>
                         <% nameTextarea = "tx_#{user.id}_#{@perfomance.id}_#{dimension.id}" %>
-                        <textarea class="answer-text" name="<%= nameTextarea %>" data-user-id="<%= user.id %>" data-perfomance-id="<%= @perfomance.id%>" data-dimension-id="<%= dimension.id %>"></textarea>
+                        <% if @userPerfomanceAnswer[nameTextarea] != nil %>
+                          <% textResponse =  @userPerfomanceAnswer[nameTextarea] %>
+                        <% end %>
+
+                        <textarea class="answer-text" name="<%= nameTextarea %>" data-user-id="<%= user.id %>" data-perfomance-id="<%= @perfomance.id%>" data-dimension-id="<%= dimension.id %>"><%=textResponse %></textarea>
                         <br/><br/>
                       <% end %>
                     </div> <!-- /wrapper-dimension -->  
                   <% end%>
                 </div><!-- /wrapper-form -->
-
-
-
-
-                <!-- 
-                <div>
-                  <ul class="nav nav-tabs" role="tablist">
-                    <% @role.each do |r| %>
-                      <% name = r.name.downcase %>
-                      <li role="presentation" class="concentro-tab"  data-role-id="<%= r.id%>" data-role-name="<%= name %>"><a href="#<%= name %>" aria-controls="<%= name %>" role="tab" data-toggle="tab"><%= name %></a></li>
-                    <% end %>
-                  </ul>
-
-                  <div class="tab-content">
-                    <% @role.each do |r| %>
-                      <% name = r.name.downcase %>
-                      <div role="tabpanel" class="tab-pane" id="<%= name %>"><%= name %></div>
-                    <% end %>
-                  </div>
-                </div>
-                -->
         		</div>
       		</div>
     	</div>
@@ -119,37 +118,6 @@
           e.preventDefault();
           $(this).tab('show');
         });
-
-        $('.concentro-tab').click(function(){
-          var RoleId = $(this).attr('data-role-id');
-          if(RoleId == undefined || RoleId == ""){
-            return false;
-          }
-
-          var roleName = $(this).attr('data-role-name');
-          if(roleName == undefined || roleName == ""){
-            return false;
-          }
-
-          ajaxUsuario(RoleId,roleName);
-
-        });
-
-
-
-        function ajaxUsuario(RoleId,roleName){
-
-          $.ajax({
-            type : 'get',
-            url  : '/performance_user',
-            dataType : 'html',
-            data : {ajaxRoleId : RoleId},
-            success :function(data){
-              $('#'+roleName).html($.parseHTML(decodeURI(data)));
-            }
-          });
-        }
-
 
         $('body').delegate('.answer','click',function(){
           saveAnswer($(this));
