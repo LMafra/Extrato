@@ -47,7 +47,7 @@ Question.create(id:6, question:"O membro reporta com antecedência atrasos ou au
 Question.create(id:7, question:"O membro se oferece para realizar tarefas necessárias para o bom andamento das atividades da equipe.", dimension_id:2)
 Question.create(id:8, question:"O membro busca alternativas para problemas na coordenadoria sem esperar passivamente pelas soluções.", dimension_id:2)
 Question.create(id:9, question:"O membro busca previamente trazer referências para as discussões propostas para as reuniões, quando necessário.", dimension_id:2)
-Question.edit(id:10, question:"A qualidade das entregas do membro é  influenciada positivamente pelo conhecimento técnico sobre a área ", dimension_id:3)
+Question.create(id:10, question:"A qualidade das entregas do membro é  influenciada positivamente pelo conhecimento técnico sobre a área ", dimension_id:3)
 Question.create(id:11, question:" As entregas feitas pelo membro conseguem atingir os objetivos esperados pela equipe.", dimension_id:3)
 Question.create(id:12, question:"O número de atividades assumidas pelo membro fora da Concentro não prejudica a qualidade de suas entregas da federação", dimension_id:3)
 Question.create(id:13, question:"O membro responde os e-mails com frequencia de forma a facilitar o trabalho na Concentro", dimension_id:4)
