@@ -1,112 +1,165 @@
 
 Criação de Federação
-	Federation.create(id:1, name:"Federação das Empresas Juniores do Distrito Federal", abbreviation:"Concentro")
+	Federation.create(id:1, question:"Federação das Empresas Juniores do Distrito Federal", abbreviation:"Concentro")
 
 Criação de Cargo
-	Role.create(id:1, name:"Diretor", organogram_id:1)
-	Role.create(id:2, name:"Coordenador", organogram_id:1)
-	Role.create(id:3, name:"Assessor", organogram_id:1)
+	Role.create(id:1, question:"Diretor", organogram_id:1)
+	Role.create(id:2, question:"Coordenador", organogram_id:1)
+	Role.create(id:3, question:"Assessor", organogram_id:1)
 
 Criação de Avaliação de Desempenho
-	Perfomance.create(id: 1, name: "Avaliação de Desempenho - Diretor", federations_id: 1, role_id: 1)
-	Perfomance.create(id: 2, name: "Avaliação de Desempenho - Coordenador", federations_id: 1, role_id: 2)
-	Perfomance.create(id: 3, name: "Avaliação de Desempenho - Assessor", federations_id: 1, role_id: 3)
+	Perfomance.create(id: 1, question: "Avaliação de Desempenho - Diretor", federations_id: 1, role_id: 1)
+	Perfomance.create(id: 2, question: "Avaliação de Desempenho - Coordenador", federations_id: 1, role_id: 2)
+	Perfomance.create(id: 3, question: "Avaliação de Desempenho - Assessor", federations_id: 1, role_id: 3)
 
 Criaçao de Dimensão
-	Dimension.create(id:1, name:"Responsabilidade - Diretor", description:"Capacidade de honrar os compromissos assumidos e de cumprir prazos.", perfomance_id:1)
+	Dimension.create(id:1, question:"Responsabilidade - Diretor", description:"Capacidade de honrar os compromissos assumidos e de cumprir prazos.", perfomance_id:1)
 
-	Dimension.create(id:2, name:"Proatividade - Diretor", description:"Considere a disposição do membro para realizar uma atividade sem ser requisitado.", perfomance_id:1)
+	Dimension.create(id:2, question:"Proatividade - Diretor", description:"Considere a disposição do membro para realizar uma atividade sem ser requisitado.", perfomance_id:1)
 
-	Dimension.create(id:3, name:"Qualidade das Entregas - Diretor", description:"Considere a execução de trabalhos de maneira organizada e criteriosa, atendendo aos procedimentos e padrões adequados.", perfomance_id:1)
+	Dimension.create(id:3, question:"Qualidade das Entregas - Diretor", description:"Considere a execução de trabalhos de maneira organizada e criteriosa, atendendo aos procedimentos e padrões adequados.", perfomance_id:1)
 
-	Dimension.create(id:4, name:"Utilização de Ferramentas - Diretor", description:"Utilização eficiente das ferramentas é o uso que não traz prejuízos à execução das atividades.", perfomance_id:1)
+	Dimension.create(id:4, question:"Utilização de Ferramentas - Diretor", description:"Utilização eficiente das ferramentas é o uso que não traz prejuízos à execução das atividades.", perfomance_id:1)
 
-	Dimension.create(id:5, name:"Trabalho em Equipe - Diretor", description:"Capacidade e disposição para trabalhar com grupos de pessoas que detenham conhecimentos e opiniões diversas, buscando a sinergia e a otimização dos resultados.", perfomance_id:1)
+	Dimension.create(id:5, question:"Trabalho em Equipe - Diretor", description:"Capacidade e disposição para trabalhar com grupos de pessoas que detenham conhecimentos e opiniões diversas, buscando a sinergia e a otimização dos resultados.", perfomance_id:1)
 
-					Dimension.create(id:6, name:"Feedback - Diretor", description:"Capacidade de transmitir feedbacks contextualizados e pertinentes, além de adotar postura receptiva para recebê-los.", perfomance_id:1)
+					Dimension.create(id:6, question:"Feedback - Diretor", description:"Capacidade de transmitir feedbacks contextualizados e pertinentes, além de adotar postura receptiva para recebê-los.", perfomance_id:1)
 
-						Dimension.create(id:7, name:"Alinhamento - Diretor", description:"Considere alinhamento como ter (os objetivos individuais) as metas mensais coerentes aos objetivos estratégicos da Concentro.", perfomance_id:1)
+						Dimension.create(id:7, question:"Alinhamento - Diretor", description:"Considere alinhamento como ter (os objetivos individuais) as metas mensais coerentes aos objetivos estratégicos da Concentro.", perfomance_id:1)
 
-							Dimension.create(id:8, name:"Pertencimento - Diretor", description:"Considere se o membro apresenta comportamentos que possam indicar que ele se sente parte da Equipe.(Considere engajado como o comportamento que ele demonstra diante a iniciativa)", perfomance_id:1)
+							Dimension.create(id:8, question:"Pertencimento - Diretor", description:"Considere se o membro apresenta comportamentos que possam indicar que ele se sente parte da Equipe.(Considere engajado como o comportamento que ele demonstra diante a iniciativa)", perfomance_id:1)
 
-	Dimension.create(id:9, name:"Responsabilidade - Coordenador", description:"Capacidade de honrar os compromissos assumidos e de cumprir prazos.", perfomance_id:2)
+	Dimension.create(id:9, question:"Responsabilidade - Coordenador", description:"Capacidade de honrar os compromissos assumidos e de cumprir prazos.", perfomance_id:2)
 
-		Dimension.create(id:10, name:"Proatividade - Coordenador", description:"Considere a disposição do membro para realizar uma atividade sem ser requisitado.", perfomance_id:2)
+		Dimension.create(id:10, question:"Proatividade - Coordenador", description:"Considere a disposição do membro para realizar uma atividade sem ser requisitado.", perfomance_id:2)
 
-			Dimension.create(id:11, name:"Qualidade das Entregas - Coordenador", description:"Considere a execução de trabalhos de maneira organizada e criteriosa, atendendo aos procedimentos e padrões adequados.", perfomance_id:2)
+			Dimension.create(id:11, question:"Qualidade das Entregas - Coordenador", description:"Considere a execução de trabalhos de maneira organizada e criteriosa, atendendo aos procedimentos e padrões adequados.", perfomance_id:2)
 
-				Dimension.create(id:12, name:"Utilização de Ferramentas - Coordenador", description:"Utilização eficiente das ferramentas é o uso que não traz prejuízos à execução das atividades.", perfomance_id:2)
+				Dimension.create(id:12, question:"Utilização de Ferramentas - Coordenador", description:"Utilização eficiente das ferramentas é o uso que não traz prejuízos à execução das atividades.", perfomance_id:2)
 
-					Dimension.create(id:13, name:"Trabalho em Equipe - Coordenador", description:"Capacidade e disposição para trabalhar com grupos de pessoas que detenham conhecimentos e opiniões diversas, buscando a sinergia e a otimização dos resultados.", perfomance_id:2)
+					Dimension.create(id:13, question:"Trabalho em Equipe - Coordenador", description:"Capacidade e disposição para trabalhar com grupos de pessoas que detenham conhecimentos e opiniões diversas, buscando a sinergia e a otimização dos resultados.", perfomance_id:2)
 
-						Dimension.create(id:14, name:"Feedback - Coordenador", description:"Capacidade de transmitir feedbacks contextualizados e pertinentes, além de adotar postura receptiva para recebê-los.", perfomance_id:2)
+						Dimension.create(id:14, question:"Feedback - Coordenador", description:"Capacidade de transmitir feedbacks contextualizados e pertinentes, além de adotar postura receptiva para recebê-los.", perfomance_id:2)
 
-							Dimension.create(id:15, name:"Alinhamento - Coordenador", description:"Considere alinhamento como ter (os objetivos individuais) as metas mensais coerentes aos objetivos estratégicos da Concentro.", perfomance_id:2)
+							Dimension.create(id:15, question:"Alinhamento - Coordenador", description:"Considere alinhamento como ter (os objetivos individuais) as metas mensais coerentes aos objetivos estratégicos da Concentro.", perfomance_id:2)
 
-								Dimension.create(id:16, name:"Pertencimento - Coordenador", description:"Considere se o membro apresenta comportamentos que possam indicar que ele se sente parte da Equipe.(Considere engajado como o comportamento que ele demonstra diante a iniciativa)",  perfomance_id:2)
+								Dimension.create(id:16, question:"Pertencimento - Coordenador", description:"Considere se o membro apresenta comportamentos que possam indicar que ele se sente parte da Equipe.(Considere engajado como o comportamento que ele demonstra diante a iniciativa)",  perfomance_id:2)
 
-	Dimension.create(id:17, name:"Responsabilidade - Assessor", description:"Capacidade de honrar os compromissos assumidos e de cumprir prazos.", perfomance_id:3)
+	Dimension.create(id:17, question:"Responsabilidade - Assessor", description:"Capacidade de honrar os compromissos assumidos e de cumprir prazos.", perfomance_id:3)
 
-		Dimension.create(id:18, name:"Proatividade - Assessor", description:"Considere a disposição do membro para realizar uma atividade sem ser requisitado.",  perfomance_id:3)
+		Dimension.create(id:18, question:"Proatividade - Assessor", description:"Considere a disposição do membro para realizar uma atividade sem ser requisitado.",  perfomance_id:3)
 
-			Dimension.create(id:19, name:"Qualidade das Entregas - Assessor", description:"Considere a execução de trabalhos de maneira organizada e criteriosa, atendendo aos procedimentos e padrões adequados.",  perfomance_id:3)
+			Dimension.create(id:19, question:"Qualidade das Entregas - Assessor", description:"Considere a execução de trabalhos de maneira organizada e criteriosa, atendendo aos procedimentos e padrões adequados.",  perfomance_id:3)
 
-				Dimension.create(id:20, name:"Utilização de Ferramentas - Assessor", description:"Utilização eficiente das ferramentas é o uso que não traz prejuízos à execução das atividades.",  perfomance_id:3)
+				Dimension.create(id:20, question:"Utilização de Ferramentas - Assessor", description:"Utilização eficiente das ferramentas é o uso que não traz prejuízos à execução das atividades.",  perfomance_id:3)
 
-					Dimension.create(id:21, name:"Trabalho em Equipe - Assessor", description:"Capacidade e disposição para trabalhar com grupos de pessoas que detenham conhecimentos e opiniões diversas, buscando a sinergia e a otimização dos resultados.",  perfomance_id:3)
+					Dimension.create(id:21, question:"Trabalho em Equipe - Assessor", description:"Capacidade e disposição para trabalhar com grupos de pessoas que detenham conhecimentos e opiniões diversas, buscando a sinergia e a otimização dos resultados.",  perfomance_id:3)
 
-						Dimension.create(id:22, name:"Feedback - Assessor", description:"Capacidade de transmitir feedbacks contextualizados e pertinentes, além de adotar postura receptiva para recebê-los.",  perfomance_id:3)
+						Dimension.create(id:22, question:"Feedback - Assessor", description:"Capacidade de transmitir feedbacks contextualizados e pertinentes, além de adotar postura receptiva para recebê-los.",  perfomance_id:3)
 
-							Dimension.create(id:23, name:"Alinhamento - Assessor", description:"Considere alinhamento como ter (os objetivos individuais) as metas mensais coerentes aos objetivos estratégicos da Concentro.", perfomance_id:3)
+							Dimension.create(id:23, question:"Alinhamento - Assessor", description:"Considere alinhamento como ter (os objetivos individuais) as metas mensais coerentes aos objetivos estratégicos da Concentro.", perfomance_id:3)
 
-								Dimension.create(id:24, name:"Pertencimento - Assessor", description:"Considere se o membro apresenta comportamentos que possam indicar que ele se sente parte da Equipe.(Considere engajado como o comportamento que ele demonstra diante a iniciativa)", perfomance_id:3)
+								Dimension.create(id:24, question:"Pertencimento - Assessor", description:"Considere se o membro apresenta comportamentos que possam indicar que ele se sente parte da Equipe.(Considere engajado como o comportamento que ele demonstra diante a iniciativa)", perfomance_id:3)
 
 
 -----------------------------------------------------------------------------------------------
 Criação das Perguntas
-	Question.create(id:1, name:"O membro cumpre os prazos previamente estabelecidos.", dimension_id:1)
-	Question.create(id:2, name:"O membro assume responsabilidade pelos resultados de suas atividades, sejam eles positivos ou negativos.", dimension_id:1)
-	Question.create(id:3, name:"O membro comparece às atividades da Concentro relacionadas à sua área.", dimension_id:1)
-	Question.create(id:4, name:"O membro comparece às Reuniões Gerais", dimension_id:1)
-	Question.create(id:5, name:"Caso o membro não consiga cumprir um prazo, comunica a equipe com antecedência.", dimension_id:1)
-	Question.create(id:6, name:"O membro reporta com antecedência atrasos ou ausências nas reuniões e outras atividades", dimension_id:1)
-	Question.create(id:7, name:"O membro se oferece para realizar tarefas necessárias para o bom andamento das atividades da equipe.", dimension_id:2)
-	Question.create(id:8, name:"O membro busca alternativas para problemas na coordenadoria sem esperar passivamente pelas soluções.", dimension_id:2)
-	Question.create(id:9, name:"O membro busca previamente trazer referências para as discussões propostas para as reuniões, quando necessário.", dimension_id:2)
-	Question.edit(id:10, name:"A qualidade das entregas do membro é  influenciada positivamente pelo conhecimento técnico sobre a área ", dimension_id:3)
-	Question.create(id:11, name:" As entregas feitas pelo membro conseguem atingir os objetivos esperados pela equipe.", dimension_id:3)
-	Question.create(id:12, name:"O número de atividades assumidas pelo membro fora da Concentro não prejudica a qualidade de suas entregas da federação", dimension_id:3)
----------------------------------------------------------------------------------------------
-	Question.create(id:13, name:"O membro responde os e-mails com frequencia de forma a facilitar o trabalho na Concentro", dimension_id:4)
-	Question.create(id:14, name:"O membro atualiza semanalmente o Trello de forma a facilitar o trabalho na Concentro", dimension_id:4)
-	Question.create(id:15, name:"O membro atualiza semanalmente a agenda de forma a facitar o trabalho na Concentro", dimension_id:4)
-	Question.create(id:16, name:"O membro atualiza o drive conforme a finalização dos processos e projetos", dimension_id:4)
-	Question.create(id:17, name:"A comunicação com o membro pelas ferramentas de gestão é efetiva", dimension_id:4)
-------------------------------------------------------------------------------------------------	Question.create(id:18, name:"O membro contribui para o resultado da equipe", dimension_id:5)
-	Question.create(id:19, name:"O membro preza pelo bom relacionamento da equipe.", dimension_id:5)
-	Question.create(id:20, name:"O membro auxilia a equipe quando esta necessita de ajuda.", dimension_id:5)
-	Question.create(id:21, name:"O membro demonstra respeito às opiniões e aos posicionamentos da equipe.", dimension_id:5)
-------------------------------------------------------------------------------------------------	
-	Question.create(id:22, name:"O membro fornece feedbacks a equipe para melhoraria das   atividades em conjunto.", dimension_id:6)
-	Question.create(id:23, name:"O membro utiliza os feedbacks recebidos para melhorar seu desempenho.", dimension_id:6)
-	Question.create(id:24, name:"O membro tem uma postura receptiva ao receber um feedback", dimension_id:6)
-	Question.create(id:25, name:"O coordenador relaciona as atividades dos assessores a estratégia da Concentro no momento de delega-las", dimension_id:7)
-	Question.create(id:26, name:"O membro é capaz de explicar a contribuição da sua meta mensal  para os objetivos estratégicos da Concentro.", dimension_id:7)
-	Question.create(id:27, name:"O membro busca novos meios para atingir sua meta mensal", dimension_id:7)
-	Question.create(id:28, name:"O membro propõe ideias e sugestões alinhadas à estratégia e à dinâmica de trabalho da Concentro.", dimension_id:7)
-	Question.create(id:29, name:"O membro se mostra engajado com  as iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...).", dimension_id:8)
-	Question.create(id:30, name:"O membro comparace às iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...)", dimension_id:8)
-	Question.create(id:31, name:"O membro se dispõe a realizar atividades que ajudem outras áreas, por exemplo: ser staff das iniciativas da Concentro", dimension_id:8)
-	Question.create(id:32, name:"O membro se esforça para ter um bom relacionamento com a equipe Concentro", dimension_id:8)
-	Question.create(id:33, name:"O membro se esforça para ter um bom relacionamento com os membros da coordenadoria", dimension_id:8)
-	-------------------------------------------------------------------------------------------
+	Question.create(id:1, question:"O membro cumpre os prazos previamente estabelecidos.", dimension_id:1)
+	Question.create(id:2, question:"O membro assume responsabilidade pelos resultados de suas atividades, sejam eles positivos ou negativos.", dimension_id:1)
+	Question.create(id:3, question:"O membro comparece às atividades da Concentro relacionadas à sua área.", dimension_id:1)
+	Question.create(id:4, question:"O membro comparece às Reuniões Gerais", dimension_id:1)
+	Question.create(id:5, question:"Caso o membro não consiga cumprir um prazo, comunica a equipe com antecedência.", dimension_id:1)
+	Question.create(id:6, question:"O membro reporta com antecedência atrasos ou ausências nas reuniões e outras atividades", dimension_id:1)
+	Question.create(id:7, question:"O membro se oferece para realizar tarefas necessárias para o bom andamento das atividades da equipe.", dimension_id:2)
+	Question.create(id:8, question:"O membro busca alternativas para problemas na coordenadoria sem esperar passivamente pelas soluções.", dimension_id:2)
+	Question.create(id:9, question:"O membro busca previamente trazer referências para as discussões propostas para as reuniões, quando necessário.", dimension_id:2)
+	Question.edit(id:10, question:"A qualidade das entregas do membro é  influenciada positivamente pelo conhecimento técnico sobre a área ", dimension_id:3)
+	Question.create(id:11, question:" As entregas feitas pelo membro conseguem atingir os objetivos esperados pela equipe.", dimension_id:3)
+	Question.create(id:12, question:"O número de atividades assumidas pelo membro fora da Concentro não prejudica a qualidade de suas entregas da federação", dimension_id:3)
+	Question.create(id:13, question:"O membro responde os e-mails com frequencia de forma a facilitar o trabalho na Concentro", dimension_id:4)
+	Question.create(id:14, question:"O membro atualiza semanalmente o Trello de forma a facilitar o trabalho na Concentro", dimension_id:4)
+	Question.create(id:15, question:"O membro atualiza semanalmente a agenda de forma a facitar o trabalho na Concentro", dimension_id:4)
+	Question.create(id:16, question:"O membro atualiza o drive conforme a finalização dos processos e projetos", dimension_id:4)
+	Question.create(id:17, question:"A comunicação com o membro pelas ferramentas de gestão é efetiva", dimension_id:4)
+	Question.create(id:18, question:"O membro contribui para o resultado da equipe", dimension_id:5)
+	Question.create(id:19, question:"O membro preza pelo bom relacioquestionnto da equipe.", dimension_id:5)
+	Question.create(id:20, question:"O membro auxilia a equipe quando esta necessita de ajuda.", dimension_id:5)
+	Question.create(id:21, question:"O membro demonstra respeito às opiniões e aos posicioquestionntos da equipe.", dimension_id:5)	
+	Question.create(id:22, question:"O membro fornece feedbacks a equipe para melhoraria das   atividades em conjunto.", dimension_id:6)
+	Question.create(id:23, question:"O membro utiliza os feedbacks recebidos para melhorar seu desempenho.", dimension_id:6)
+	Question.create(id:24, question:"O membro tem uma postura receptiva ao receber um feedback", dimension_id:6)
+	Question.create(id:25, question:"O coordenador relaciona as atividades dos assessores a estratégia da Concentro no momento de delega-las", dimension_id:7)
+	Question.create(id:26, question:"O membro é capaz de explicar a contribuição da sua meta mensal  para os objetivos estratégicos da Concentro.", dimension_id:7)
+	Question.create(id:27, question:"O membro busca novos meios para atingir sua meta mensal", dimension_id:7)
+	Question.create(id:28, question:"O membro propõe ideias e sugestões alinhadas à estratégia e à dinâmica de trabalho da Concentro.", dimension_id:7)
+	Question.create(id:29, question:"O membro se mostra engajado com  as iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...).", dimension_id:8)
+	Question.create(id:30, question:"O membro comparace às iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...)", dimension_id:8)
+	Question.create(id:31, question:"O membro se dispõe a realizar atividades que ajudem outras áreas, por exemplo: ser staff das iniciativas da Concentro", dimension_id:8)
+	Question.create(id:32, question:"O membro se esforça para ter um bom relacioquestionnto com a equipe Concentro", dimension_id:8)
+	Question.create(id:33, question:"O membro se esforça para ter um bom relacioquestionnto com os membros da coordenadoria", dimension_id:8)
 
-
-
-
-
-
-
-
-
-	Question.create(id:, name:"", dimension_id:)
+	Question.create(id:34, question:"O membro cumpre os prazos previamente estabelecidos.", dimension_id:9)
+	Question.create(id:35, question:"O membro assume responsabilidade pelos resultados de suas atividades, sejam eles positivos ou negativos.", dimension_id:9)
+	Question.create(id:36, question:"O membro comparece às atividades da Concentro relacionadas à sua área.", dimension_id:9)
+	Question.create(id:37, question:"O membro comparece às Reuniões Gerais", dimension_id:9)
+	Question.create(id:38, question:"Caso o membro não consiga cumprir um prazo, comunica a equipe com antecedência.", dimension_id:9)
+	Question.create(id:39, question:"O membro reporta com antecedência atrasos ou ausências nas reuniões e outras atividades", dimension_id:9)
+	Question.create(id:40, question:"O membro se oferece para realizar tarefas necessárias para o bom andamento das atividades da equipe.", dimension_id:10)
+	Question.create(id:41, question:"O membro busca alternativas para problemas na coordenadoria sem esperar passivamente pelas soluções.", dimension_id:10)
+	Question.create(id:42, question:"O membro busca previamente trazer referências para as discussões propostas para as reuniões, quando necessário.", dimension_id:10)
+	Question.create(id:43, question:"A qualidade das entregas do membro é  influenciada positivamente pelo conhecimento técnico sobre a área", dimension_id:11)
+	Question.create(id:44, question:"As entregas feitas pelo membro conseguem atingir os objetivos esperados pela equipe.", dimension_id:11)
+	Question.create(id:45, question:"O membro consegue fazer uso da gestão do tempo, independente das suas atividades alheias à Concentro, de forma a entregar suas tarefas com qualidade.", dimension_id:11)
+	Question.create(id:46, question:"O membro responde os e-mails com frequencia de forma a facilitar o trabalho na Concentro", dimension_id:12)
+	Question.create(id:47, question:"O membro atualiza semanalmente o Trello de forma a facilitar o trabalho na Concentro", dimension_id:12)
+	Question.create(id:48, question:"O membro atualiza semanalmente a agenda de forma a facitar o trabalho na Concentro", dimension_id:12)
+	Question.create(id:49, question:"O membro atualiza o drive conforme a finalização dos processos e projetos", dimension_id:12)
+	Question.create(id:50, question:"A comunicação com o membro pelas ferramentas de gestão é efetiva", dimension_id:12)
+	Question.create(id:51, question:"O membro contribui para o resultado da equipe", dimension_id:13)
+	Question.create(id:52, question:"O membro preza pelo bom relacionamento da equipe.", dimension_id:13)
+	Question.create(id:53, question:"O membro auxilia a equipe quando esta necessita de ajuda.", dimension_id:13)
+	Question.create(id:54, question:" O membro demonstra respeito às opiniões e aos posicionamentos da equipe.", dimension_id:13)
+	Question.create(id:55, question:"O membro fornece feedbacks a equipe para melhoraria das atividades em conjunto.", dimension_id:14)
+	Question.create(id:56, question:"O membro utiliza os feedbacks recebidos para melhorar seu desempenho.", dimension_id:14)
+	Question.create(id:57, question:"O membro tem uma postura receptiva ao receber um feedback", dimension_id:14)
+	Question.create(id:58, question:"O coordenador relaciona as atividades dos assessores a estratégia da Concentro no momento de delega-las", dimension_id:15)
+	Question.create(id:59, question:"O membro é capaz de explicar a contribuição da sua meta mensal  para os objetivos estratégicos da Concentro.", dimension_id:15)
+	Question.create(id:60, question:"O membro busca novos meios para atingir sua meta mensal.", dimension_id:15)
+	Question.create(id:61, question:"O membro propõe ideias e sugestões alinhadas à estratégia e à dinâmica de trabalho da Concentro.", dimension_id:15)
+	Question.create(id:62, question:"O membro se mostra engajado com  as iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...).", dimension_id:16)
+	Question.create(id:63, question:"O membro comparace às iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...).", dimension_id:16)
+	Question.create(id:64, question:"O membro se dispõe a realizar atividades que ajudem outras áreas, por exemplo: ser staff das iniciativas da Concentro", dimension_id:16)
+	Question.create(id:65, question:"O membro se esforça para ter um bom relacionamento com a equipe Concentro", dimension_id:16)
+	Question.create(id:66, question:" o membro se esforça para ter um bom relacionamento com os membros da coordenadoria", dimension_id:16)
+	
+	Question.create(id:67, question:"O membro cumpre os prazos previamente estabelecidos.", dimension_id:17)
+	Question.create(id:68, question:"O membro assume responsabilidade pelos resultados de suas atividades, sejam eles positivos ou negativos.", dimension_id:17)
+	Question.create(id:69, question:"O membro comparece às atividades da Concentro relacionadas à sua área.", dimension_id:17)
+	Question.create(id:70, question:"O membro comparece às Reuniões Gerais", dimension_id:17)
+	Question.create(id:71, question:"Caso o membro não consiga cumprir um prazo, comunica a equipe com antecedência.", dimension_id:17)
+	Question.create(id:72, question:"O membro reporta com antecedência atrasos ou ausências nas reuniões e outras atividades", dimension_id:17)
+	Question.create(id:73, question:"O membro se oferece para realizar tarefas necessárias para o bom andamento das atividades da equipe.", dimension_id:18)
+	Question.create(id:74, question:"O membro demonstra buscar alternativas para problemas na coordenadoria sem esperar passivamente pelas soluções.", dimension_id:18)
+	Question.create(id:75, question:"O membro busca previamente trazer referências para as discussões propostas para as reuniões, quando necessário.", dimension_id:18)
+	Question.create(id:76, question:"A qualidade das entregas do assessor  é  influenciada positivamente pelo conhecimento técnico sobre a área", dimension_id:19)
+	Question.create(id:77, question:"As entregas feitas pelo membro conseguem atingir os objetivos esperados pela equipe.", dimension_id:19)
+	Question.create(id:78, question:"O número de atividades assumidas pelo membro fora da Concentro não prejudica a qualidade de suas entregas da federação", dimension_id:19)
+	Question.create(id:79, question:"O membro responde os e-mails com frequencia de forma a facilitar o trabalho na Concentro", dimension_id:20)
+	Question.create(id:80, question:"O membro atualiza semanalmente o Trello de forma a facilitar o trabalho na Concentro", dimension_id:20)
+	Question.create(id:81, question:"O membro atualiza semanalmente a agenda de forma a facilitar o trabalho na Concetro ", dimension_id:20)
+	Question.create(id:82, question:"O membro atualiza o drive conforme a finalização dos processos e projetos", dimension_id:20)
+	Question.create(id:83, question:"A comunicação com o membro pelas ferramentas de gestão é efetiva", dimension_id:20)
+	Question.create(id:84, question:"O membro contribui para o resultado da equipe", dimension_id:21)
+	Question.create(id:85, question:"O membro preza pelo bom relacionamento da equipe.", dimension_id:21)
+	Question.create(id:86, question:"O membro auxilia a equipe quando esta necessita de ajuda.", dimension_id:21)
+	Question.create(id:87, question:" O membro demonstra respeito às opiniões e aos posicionamentos da equipe.", dimension_id:21)
+	Question.create(id:88, question:"O membro fornece feedbacks a equipe para melhoraria das atividades em conjunto.", dimension_id:22)
+	Question.create(id:89, question:"O membro utiliza os feedbacks recebidos para melhorar seu desempenho.", dimension_id:22)
+	Question.create(id:90, question:"O membro tem uma postura receptiva ao receber um feedback", dimension_id:22)
+	Question.create(id:91, question:"O assessor é capaz de explicar suas atividades mensais", dimension_id:23)
+	Question.create(id:92, question:"O membro é capaz de explicar a contribuição da sua meta mensal  para os objetivos estratégicos da Concentro.", dimension_id:23)
+	Question.create(id:93, question:"O membro utiliza meios adequados para atingir executar suas atividades mensais", dimension_id:23)
+	Question.create(id:94, question:"O membro propõe ideias e sugestões alinhadas à estratégia e à dinâmica de trabalho da Concentro.", dimension_id:23)
+	Question.create(id:95, question:"O membro se mostra engajado com  as iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...).", dimension_id:24)
+	Question.create(id:96, question:"O membro comparace às iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...).", dimension_id:24)
+	Question.create(id:97, question:"O membro se dispõe a realizar atividades que ajudem outras áreas, por exemplo: ser staff das iniciativas da Concentro", dimension_id:24)
