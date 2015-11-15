@@ -3351,3 +3351,10 @@ ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.ma
   Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (22.7ms)
   [1m[36mPerfomanceAnswer Load (0.8ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-15 21:38:53 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[35mPerfomanceAnswer Load (0.3ms)[0m  SELECT "perfomance_answers".* FROM "perfomance_answers"
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.3ms)
