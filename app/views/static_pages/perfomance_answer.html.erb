@@ -5,7 +5,7 @@
 </head>
 <body>
 	<% @answers.each do |a|%>
-		<p><%=a.user%></p>
+		<p><%=a.user.email%></p>
 	<%end%>
 </body>
 </html>
