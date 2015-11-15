@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "/perfomance_evaluation/:role_id" => "static_pages#perfomance_evaluation"
   get "/home" => "static_pages#home"
   get "/ajax_perfomance_user_save" => "static_pages#ajax_perfomance_user_save"
+  get "/perfomance_answer" => "static_pages#perfomance_answer"
   devise_for :users, :controllers => { registrations: 'devise/registrations' }
   resources :questions
   resources :dimensions

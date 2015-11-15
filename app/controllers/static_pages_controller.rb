@@ -3,6 +3,10 @@ class StaticPagesController < ApplicationController
   	@user = User.all
   end
 
+  def perfomance_answer
+    @answers = PerfomanceAnswer.all
+  end
+
   def perfomance_evaluation
 
     @answers =  PerfomanceAnswer.all
@@ -87,12 +91,6 @@ class StaticPagesController < ApplicationController
 
     #recuperando a avaliação de desempenho baseado no cargo
     @perfomance = Perfomance.includes(:dimensions).where(role_id: roleId).first
-
-
-
-
-    
-
   end
 
   #savando o valor da avaliação de desempenho
