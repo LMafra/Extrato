@@ -5,7 +5,8 @@
 </head>
 <body>
 	<% @answers.each do |a|%>
-		<p><%=a.userLogged%></p>
+	<h5>Avaliador</h5> <p><%=a.userLogged%></p>
+	<h5>Nota</h5> <p><%=a.value%></p>
 	<%end%>
 </body>
 </html>

@@ -5,7 +5,7 @@ class StaticPagesController < ApplicationController
 
   def perfomance_answer
     @answers = PerfomanceAnswer.all
-    userId = current_user.id
+    user = User.find([1,50])
   end
 
   def perfomance_evaluation
