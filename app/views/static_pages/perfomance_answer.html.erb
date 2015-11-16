@@ -4,9 +4,6 @@
 	<title>Resultados</title>
 </head>
 <body>
-	<% @answers.each do |a|%>
-	<h5>Avaliador</h5> <p><%=a.userLogged%></p>
-	<h5>Nota</h5> <p><%=a.value%></p>
-	<%end%>
+	<h1><%= @loggedUser.email%></h1>
 </body>
 </html>
