@@ -5,6 +5,7 @@ class StaticPagesController < ApplicationController
 
   def perfomance_answer
     @answers = PerfomanceAnswer.all
+    userId = current_user.id
   end
 
   def perfomance_evaluation
