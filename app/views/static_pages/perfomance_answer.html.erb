@@ -6,7 +6,7 @@
 <body>
 	<div id="container">
 		<% @answers.each do |a|%>
-			<p>Avaliador: <%= @users.email %></p>
+			<p>Avaliador: <%= User.find(a.userLogged).email %></p>
 			<p> Avaliou às: <%= a.created_at%>, Atualizou às <%= a.updated_at%></p>
 			<br>	
 		<%end%>
