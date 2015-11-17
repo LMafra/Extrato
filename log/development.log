@@ -11591,3 +11591,1807 @@ Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac1841934
 
 
 Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-16 23:51:13 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-17 11:56:52 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (18.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (115.9ms)
+Completed 200 OK in 839ms (Views: 452.4ms | ActiveRecord: 340.3ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:53 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:53 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 11:56:54 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 11:56:57 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[35mUser Load (42.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1, 50)
+  [1m[36mPerfomanceAnswer Load (35.7ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (51.6ms)
+Completed 500 Internal Server Error in 188ms (ActiveRecord: 78.8ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: </head>
+     6: <body>
+     7: 	<%@answers.each do |a|%>
+     8: 		<%@users.each do |u|%>
+     9: 			<p>Avaliador: <%=u.(a.userLogged).email%></p>
+    10: 		<%end%>
+    11: 	<%end%>
+  app/views/static_pages/perfomance_answer.html.erb:8:in `block in _app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_69858721052260'
+  app/views/static_pages/perfomance_answer.html.erb:7:in `_app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_69858721052260'
+
+
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.1ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (10.1ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.7ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.3ms)
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 11:57:19 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[35mPerfomanceAnswer Load (0.3ms)[0m  SELECT "perfomance_answers".* FROM "perfomance_answers"
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.4ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: </head>
+     6: <body>
+     7: 	<%@answers.each do |a|%>
+     8: 		<%@users.each do |u|%>
+     9: 			<p>Avaliador: <%=u.(a.userLogged).email%></p>
+    10: 		<%end%>
+    11: 	<%end%>
+  app/views/static_pages/perfomance_answer.html.erb:8:in `block in _app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_69858721052260'
+  app/views/static_pages/perfomance_answer.html.erb:7:in `_app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_69858721052260'
+
+
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.0ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.1ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (23.7ms)
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 11:57:26 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.3ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (14.8ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 2.4ms)
+
+ActionView::Template::Error (undefined method `call' for #<User:0x007f126c11c2b0>):
+     6: <body>
+     7: 	<%@answers.each do |a|%>
+     8: 		<%@users.each do |u|%>
+     9: 			<p>Avaliador: <%=u.(a.userLogged).email%></p>
+    10: 		<%end%>
+    11: 	<%end%>
+    12: </body>
+  app/views/static_pages/perfomance_answer.html.erb:9:in `block (2 levels) in _app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_69858721052260'
+  app/views/static_pages/perfomance_answer.html.erb:8:in `block in _app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_69858721052260'
+  app/views/static_pages/perfomance_answer.html.erb:7:in `_app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_69858721052260'
+
+
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.5ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.6ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (22.2ms)
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 14:22:40 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (1007.9ms)
+Completed 200 OK in 30220ms (Views: 26164.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:32 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:33 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:33 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 14:23:38 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 16:36:56 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (219.7ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mUser Load (41.7ms)[0m  SELECT "users".* FROM "users"
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (1377.6ms)
+Completed 500 Internal Server Error in 1380ms (ActiveRecord: 261.4ms)
+
+ActionView::Template::Error (undefined local variable or method `answers' for #<#<Class:0x007f12808270c8>:0x000000061b7820>):
+    4: 	<title>Resultados</title>
+    5: </head>
+    6: <body>
+    7: 	<%answers.each do |a|%>
+    8: 		<p><%= a.dimension %></p>
+    9: 		<p><%= a.value %></p>
+   10: 	<%end%>
+  app/views/static_pages/perfomance_answer.html.erb:7:in `_app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_51174420'
+
+
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (19.8ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.6ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (94.6ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.4ms)
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 16:37:24 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.4ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mDimension Load (101.8ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mDimension Load (0.3ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (1289.8ms)
+Completed 200 OK in 1364ms (Views: 1041.7ms | ActiveRecord: 321.9ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:26 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.5ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 99ms (Views: 95.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 16:37:34 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:06:42 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.5ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined method `datetime' for #<PerfomanceAnswer:0x007f128131e8a0>):
+     7: 	<% @answers.each do |a|%>
+     8: 		<p><%= a.dimension.name %></p>
+     9: 		<p><%= a.value %></p>
+    10: 		<p><%= a.datetime%></p>
+    11: 	<%end%>
+    12: </body>
+    13: </html>
+  app/views/static_pages/perfomance_answer.html.erb:10:in `block in _app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_69858727106040'
+  app/views/static_pages/perfomance_answer.html.erb:7:in `_app_views_static_pages_perfomance_answer_html_erb__2086755604409465519_69858727106040'
+
+
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.8ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.1ms)
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.5ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (62.1ms)
+Completed 200 OK in 159ms (Views: 156.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:10 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:07:56 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.3ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mDimension Load (0.3ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 428ms (Views: 424.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:07:57 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.3ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 21]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 23]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 23]]
+  [1m[35mDimension Load (0.1ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 24]]
+  [1m[36mDimension Load (0.1ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36mDimension Load (0.2ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mDimension Load (0.2ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "dimensions".* FROM "dimensions" WHERE "dimensions"."id" = $1 LIMIT 1  [["id", 11]]
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 177ms (Views: 174.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:08:24 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:09:27 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.5ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:28 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[35mPerfomanceAnswer Load (0.3ms)[0m  SELECT "perfomance_answers".* FROM "perfomance_answers"
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 74ms (Views: 73.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:38 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.6ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:09:54 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[35mPerfomanceAnswer Load (0.5ms)[0m  SELECT "perfomance_answers".* FROM "perfomance_answers"
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 90ms (Views: 89.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:30 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.4ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 97ms (Views: 96.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:10:40 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:11:51 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[35mPerfomanceAnswer Load (0.4ms)[0m  SELECT "perfomance_answers".* FROM "perfomance_answers"
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `userLogged' for #<PerfomanceAnswer::ActiveRecord_Relation:0x007f1280de90b0>):
+  app/controllers/static_pages_controller.rb:8:in `perfomance_answer'
+
+
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/lmafra/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.1ms)
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:12:56 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.3ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 105ms (Views: 81.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:12:57 -0200
+
+
+Started GET "/perfomance_answer" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+Processing by StaticPagesController#perfomance_answer as HTML
+  [1m[36mPerfomanceAnswer Load (0.3ms)[0m  [1mSELECT "perfomance_answers".* FROM "perfomance_answers"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 30]]
+  Rendered static_pages/perfomance_answer.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 86ms (Views: 74.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/bootstrap-social.self-28ffd9f88782c3d89b18ea2ca29d3ac52b9cc71f3f6d9d62343ac4b44c0de1dd.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/basic.self-607178f36ed83470fdc8da956705a6491f6dc351d032cc3615f45d1bee3bc458.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/bootstrap.min.self-6655d1384d1509415d234003e6f81cf5de3d688790aaadc1091aa5bb5795b1f1.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/bootstrap-fileupload.min.self-216d0caee7325411a9b8a68195f888827253126a6d05d3f8de861da76118bce3.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/bootstrap.self-2f5d5912569102f5188eb6878b32cf0a257fdcc3145503e2bd831ba4719ab97e.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/countries.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/custom.self-dc3e1b5b26c676d9e354f41489dc8415b53b5d6de1684f8c95f09e5ed9c9fd41.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/dimensions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/error.self-2afb7eeb6f0dda7c8c6521f52ccf7309471e774d2a2ed068aa4fcf5b060c3703.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/federations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/font-awesome.self-593efe1f8770990281f6e8b6fc90bc386c646036da6fa377e6e24233c6a88363.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/invoice.self-0305e83cd9ae3b3c22ca92ddffbc39e553cb29aac2fdf39ee9e55f5a9b94e224.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/junior_companies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/organograms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/perfomance.self-15bc8fe1b600393e703e698b9b4ee8566733960906684d2ac9906c1eb6c114d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/perfomances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/prettyPhoto.self-19803296c689b7d0fdd170f2a05f95f4931d8119fff6fb5e7d5eddc4ce5c5c89.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/pricing.self-cb839f7fd28fa174d91a0d4e7be664c306198d8603fa9d8974c376d8d3a38d04.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/questions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/roles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/states.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/static_pages.self-0241c32b2594f4a955169d5b7787b1cc63029d9a9939519b1fe866426e0f65d9.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/wizard/jquery.steps.self-8c77e20f55100f65e4824db231fb135f10502ac3a5e6c6a0c161177471721e2c.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/wizard/normalize.self-aca4223d02b133d1798539f00068de5c4ebaa2fa3a1490714524eb807deb1c45.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/wizard/wizardMain.self-4903df913b12a0f6a46bb83ade3ac18419345684dea274a9394281d9d6952c3e.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-11-17 17:13:20 -0200
