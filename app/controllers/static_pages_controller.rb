@@ -3,10 +3,32 @@ class StaticPagesController < ApplicationController
   	@user = User.all
   end
 
+  def perfomance_result
+    @answers = PerfomanceAnswer.all
+    @answers.each do |a|
+      if a.dimension.name == "Responsabilidade - Assessor" 
+      end
+    end
+  end
+
+  def result_equip
+    @answers = PerfomanceAnswer.all
+    @result = a.value + @result
+  end
+
+  def result_dimension
+
+  end
+
+  def result_area
+    
+  end
+
+
   def perfomance_answer
     @answers = PerfomanceAnswer.all
     @answers.each do |a|
-        @users = User.find(a.userLogged)
+      @users = User.find(a.userLogged)
     end
   end
 

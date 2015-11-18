@@ -4,8 +4,10 @@ Rails.application.routes.draw do
     root to: "devise/sessions#new"
   end
   get "/perfomance_evaluation/:role_id" => "static_pages#perfomance_evaluation"
+  get "/perfomance_result" => "static_pages#perfomance_result"
   get "/home" => "static_pages#home"
   get "/ajax_perfomance_user_save" => "static_pages#ajax_perfomance_user_save"
+
   get "/perfomance_answer" => "static_pages#perfomance_answer"
   devise_for :users, :controllers => { registrations: 'devise/registrations' }
   resources :questions

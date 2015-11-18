@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<% @answers.each do |a|%>
+		<% if a.dimension.name == "Responsabilidade - Assessor" && "Responsabilidade - Coordenador"%>
+			<p><%= a.sum(:value)%></p>
+		<%end%>
+	<%end%>	
+</body>
+</html>
