@@ -5,15 +5,17 @@ class StaticPagesController < ApplicationController
 
   def perfomance_result
     @answers = PerfomanceAnswer.all
-    @answers.each do |a|
-      if a.dimension.name == "Responsabilidade - Assessor" 
-      end
-    end
+    @a = PerfomanceAnswer
+      .select("dimension_id, avg(value) as soma")
+      .where("value is not null")
+      .group("dimension_id")
+      .order('dimension_id')
+
+    #select("*,sum(value) as soma").where("value is not null").group(:dimension_id).order("dimension_id")
   end
 
   def result_equip
     @answers = PerfomanceAnswer.all
-    @result = a.value + @result
   end
 
   def result_dimension

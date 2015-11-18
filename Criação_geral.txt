@@ -163,3 +163,23 @@ Criação das Perguntas
 	Question.create(id:95, question:"O membro se mostra engajado com  as iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...).", dimension_id:24)
 	Question.create(id:96, question:"O membro comparace às iniciativas da Concentro (integrações, Sábado Júnior, SAC Oficinas...).", dimension_id:24)
 	Question.create(id:97, question:"O membro se dispõe a realizar atividades que ajudem outras áreas, por exemplo: ser staff das iniciativas da Concentro", dimension_id:24)
+
+
+
+
+
+
+
+
+
+<% d = Hash.new%>
+    					<%@answers.each do |a|%>
+    						<% if(d.has_key?(a.dimension.name))%>
+    							<% d[a.dimension.name] = d[a.dimension.name] + a.value %>
+    						<% else %>
+    							<% d[a.dimension.name] = a.value %>
+    						<% end%>	
+    					<%end%>
+
+    					<%= d.each {|key, value| puts "#{key} is #{value}" }%>
+    					<br>
