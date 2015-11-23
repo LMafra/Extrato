@@ -9,24 +9,7 @@ class StaticPagesController < ApplicationController
       .select("dimension_id, avg(value) as soma")
       .where("value is not null and value != 0")
       .group("dimension_id")
-      .order('dimension_id')
-      #select("*,sum(value) as soma").where("value is not null").group(:dimension_id).order("dimension_id")
-
-
-    #dimensionMapHash = { 1 => [9,17], 2 => [10, 18], 
-    #  3 => [11, 19], 4 => [12, 20], 
-    #  5 => [13, 21], 6 => [14, 22], 
-    #  7 => [15, 23], 8 => [16, 24]}
-
-    
-    #@a.each do |p|
-    #  @soma1 = 0
-    #  dimensionMapHash[p.id].each do |w|
-    #    soma1 = a[w].soma
-    #  end
-    #  p.dimension.name
-    #  soma1 = soma1 / 3
-    #end
+      .order('dimension_id') 
   end
 
   def perfomance_answer
