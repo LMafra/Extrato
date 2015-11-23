@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Organogram.create(id:1, federations_id:1)
+Organogram.create(id:1, federation_id:1)
 Area.create(id:1, organogram_id:1, name:"Presidência")
 Area.create(id:2, organogram_id:1, name:"Vice-Presidência")
 Area.create(id:3, organogram_id:1, name:"Comunicação")
