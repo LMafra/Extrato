@@ -12,6 +12,15 @@ class StaticPagesController < ApplicationController
       .order('dimension_id') 
   end
 
+  def perfomance_areas
+    @answers = PerfomanceAnswer.all
+    @b = PerfomanceAnswer
+      .select("dimension_id, avg(value) as soma", "user_id")
+      .where("value is not null and value != 0")
+      .group("user_id","dimension_id")
+      .order("user_id","dimension_id")
+  end
+
   def perfomance_answer
     @answers = PerfomanceAnswer.all
     @answers.each do |a|
