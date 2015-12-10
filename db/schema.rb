@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151123220126) do
+ActiveRecord::Schema.define(version: 20151208214453) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -54,6 +54,30 @@ ActiveRecord::Schema.define(version: 20151123220126) do
     t.string   "abbreviation"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+  end
+
+  create_table "indicator_federations", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "value"
+    t.integer  "indicator_id"
+    t.integer  "federation_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "indicator_junior_companies", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "value"
+    t.integer  "id_indicator"
+    t.integer  "id_junior_company"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+  end
+
+  create_table "indicators", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "junior_companies", force: :cascade do |t|

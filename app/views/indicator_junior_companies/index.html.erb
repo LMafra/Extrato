@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Indicator Junior Companies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Value</th>
+      <th>Id indicator</th>
+      <th>Id junior company</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @indicator_junior_companies.each do |indicator_junior_company| %>
+      <tr>
+        <td><%= indicator_junior_company.name %></td>
+        <td><%= indicator_junior_company.value %></td>
+        <td><%= indicator_junior_company.id_indicator %></td>
+        <td><%= indicator_junior_company.id_junior_company %></td>
+        <td><%= link_to 'Show', indicator_junior_company %></td>
+        <td><%= link_to 'Edit', edit_indicator_junior_company_path(indicator_junior_company) %></td>
+        <td><%= link_to 'Destroy', indicator_junior_company, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Indicator junior company', new_indicator_junior_company_path %>
