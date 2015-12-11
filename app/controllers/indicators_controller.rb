@@ -5,6 +5,7 @@ class IndicatorsController < ApplicationController
   # GET /indicators.json
   def index
     @indicators = Indicator.all
+    @indicator = Indicator.new
   end
 
   # GET /indicators/1

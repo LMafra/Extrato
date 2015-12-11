@@ -15,6 +15,7 @@
         <% unless ind_federation.new_record? %>
           <p><%= ind_federation.federation.abbreviation %></p>
           <p><%= ind_federation.value %></p>
+          <span class="indicators__icon"><%= link_to 'Edit', edit_indicator_federation_path(ind_federation) %></span>
           <span class="indicators__icon"><%= link_to 'Destroy', ind_federation, method: :delete, data: { confirm: 'Are you sure?' } %></span>
 
         <% end %>
@@ -31,6 +32,7 @@
         <% unless ind_junior_company.new_record? %>
           <p><%= ind_junior_company.junior_company.name %></p>
           <p><%= ind_junior_company.value %></p>
+          <span class="indicators__icon"><%= link_to 'Edit', edit_indicator_junior_company_path(ind_junior_company) %></span>
           <span class="indicators__icon"><%= link_to 'Destroy', ind_junior_company, method: :delete, data: { confirm: 'Are you sure?' } %></span>
         <% end %>
       <% end %>

@@ -1,4 +1,4 @@
-<%= form_for(@indicator_junior_company) do |f| %>
+<%= simple_form_for(@indicator_junior_company) do |f| %>
   <% if @indicator_junior_company.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@indicator_junior_company.errors.count, "error") %> prohibited this indicator_junior_company from being saved:</h2>
@@ -11,23 +11,8 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :value %><br>
-    <%= f.number_field :value %>
-  </div>
-  <div class="field">
-    <%= f.label :indicator_id %><br>
-    <%= f.number_field :indicator_id %>
-  </div>
-  <div class="field">
-    <%= f.label :junior_company_id %><br>
-    <%= f.number_field :junior_company_id %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <%= f.input :value %>
+  <%= f.association :indicator ,as: :select%>
+  <%= f.association :junior_company ,as: :select %>
+  <%= f.button :submit, 'Update' %>
 <% end %>

@@ -15,7 +15,12 @@
     <% end %>
   </div>
 </div>
+<div class="indicators-create">
+  <%= simple_form_for(@indicator) do |f| %>
 
-<br>
+    <%= f.input :name %>
+    <%= f.button :submit %>
 
-<%= link_to 'Criar novo indicador', new_indicator_path %>
+  <% end %>
+</div>
+
