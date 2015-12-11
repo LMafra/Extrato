@@ -1,10 +1,9 @@
 class CreateIndicatorFederations < ActiveRecord::Migration
   def change
     create_table :indicator_federations do |t|
-      t.string :name
       t.integer :value
-      t.integer :indicator_id
-      t.integer :federation_id
+      t.references :indicator
+      t.references :federation
 
       t.timestamps null: false
     end

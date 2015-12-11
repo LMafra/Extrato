@@ -1,9 +1,57 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Nome:</strong>
   <%= @indicator.name %>
 </p>
+<div class="indicators">
+  <div class="indicators__type">
+    <div class="indicators__title clearfix">
+      <h5>Federação</h5>
+      <h5>Valor</h5>
+    </div>
+    <div class="indicators__body clearfix">
+      <% @indicator.indicator_federations.each do |ind_federation| %>
+        <% unless ind_federation.new_record? %>
+          <p><%= ind_federation.federation.abbreviation %></p>
+          <p><%= ind_federation.value %></p>
 
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+  <div class="indicators__type">
+    <div class="indicators__title clearfix">
+      <h5>EJ</h5>
+      <h5>Valor</h5>
+    </div>
+    <div class="indicators__body clearfix">
+      <% @indicator.indicator_junior_companies.each do |ind_junior_company| %>
+        <% unless ind_junior_company.new_record? %>
+          <p><%= ind_junior_company.junior_company.name %></p>
+          <p><%= ind_junior_company.value %></p>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="indicator-relations">
+  <div class="indicators-relations__item">
+    <%= simple_form_for @indicator_federation do |f| %>
+      <%= f.association :federation, as: :select %>
+      <%= f.input :value %>
+      <%= f.association :indicator, as: :hidden %>
+      <%= f.button :submit %>
+    <% end %>
+  </div>
+  <div class="indicators-relations__item">
+    <%= simple_form_for @indicator_junior_company do |f| %>
+      <%= f.association :junior_company, as: :select %>
+      <%= f.input :value %>
+      <%= f.association :indicator, as: :hidden %>
+      <%= f.button :submit %>
+    <% end %>
+  </div>
+</div>
 <%= link_to 'Edit', edit_indicator_path(@indicator) %> |
 <%= link_to 'Back', indicators_path %>

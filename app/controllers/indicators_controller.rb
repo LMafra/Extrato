@@ -10,6 +10,8 @@ class IndicatorsController < ApplicationController
   # GET /indicators/1
   # GET /indicators/1.json
   def show
+    @indicator_federation = @indicator.indicator_federations.new
+    @indicator_junior_company = @indicator.indicator_junior_companies.new
   end
 
   # GET /indicators/new
@@ -64,7 +66,7 @@ class IndicatorsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_indicator
-      @indicator = Indicator.find(params[:id])
+      @indicator = Indicator.includes(:indicator_federations,:indicator_junior_companies).find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

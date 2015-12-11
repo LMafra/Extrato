@@ -1,3 +1,17 @@
-// Place all the styles related to the indicators controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.indicators {
+  .indicators__title, .indicators__body {
+    h5, p{
+      width: 25%;
+      display: block;
+      float: left;
+    }
+  }
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+.indicator-relations,.indicators {
+  width: 50%;
+  float: left;
+}

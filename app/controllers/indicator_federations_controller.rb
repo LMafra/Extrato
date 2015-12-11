@@ -28,7 +28,7 @@ class IndicatorFederationsController < ApplicationController
 
     respond_to do |format|
       if @indicator_federation.save
-        format.html { redirect_to @indicator_federation, notice: 'Indicator federation was successfully created.' }
+        format.html { redirect_to @indicator_federation.indicator, notice: 'Indicator federation was successfully created.' }
         format.json { render :show, status: :created, location: @indicator_federation }
       else
         format.html { render :new }
@@ -69,6 +69,6 @@ class IndicatorFederationsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def indicator_federation_params
-      params.require(:indicator_federation).permit(:name, :value)
+      params.require(:indicator_federation).permit(:value, :federation_id, :indicator_id)
     end
 end

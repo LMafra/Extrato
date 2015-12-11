@@ -57,7 +57,6 @@ ActiveRecord::Schema.define(version: 20151208214453) do
   end
 
   create_table "indicator_federations", force: :cascade do |t|
-    t.string   "name"
     t.integer  "value"
     t.integer  "indicator_id"
     t.integer  "federation_id"
@@ -66,10 +65,9 @@ ActiveRecord::Schema.define(version: 20151208214453) do
   end
 
   create_table "indicator_junior_companies", force: :cascade do |t|
-    t.string   "name"
     t.integer  "value"
-    t.integer  "id_indicator"
-    t.integer  "id_junior_company"
+    t.integer  "indicator_id"
+    t.integer  "junior_company_id"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
   end
