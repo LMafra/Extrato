@@ -28,7 +28,7 @@ class IndicatorJuniorCompaniesController < ApplicationController
 
     respond_to do |format|
       if @indicator_junior_company.save
-        format.html { redirect_to @indicator_junior_company, notice: 'Indicator junior company was successfully created.' }
+        format.html { redirect_to @indicator_junior_company.indicator}
         format.json { render :show, status: :created, location: @indicator_junior_company }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class IndicatorJuniorCompaniesController < ApplicationController
   def update
     respond_to do |format|
       if @indicator_junior_company.update(indicator_junior_company_params)
-        format.html { redirect_to @indicator_junior_company, notice: 'Indicator junior company was successfully updated.' }
+        format.html { redirect_to  @indicator_junior_company.indicator }
         format.json { render :show, status: :ok, location: @indicator_junior_company }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class IndicatorJuniorCompaniesController < ApplicationController
   def destroy
     @indicator_junior_company.destroy
     respond_to do |format|
-      format.html { redirect_to indicator_junior_companies_url, notice: 'Indicator junior company was successfully destroyed.' }
+      format.html { redirect_to  @indicator_junior_company.indicator }
       format.json { head :no_content }
     end
   end
@@ -69,6 +69,6 @@ class IndicatorJuniorCompaniesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def indicator_junior_company_params
-      params.require(:indicator_junior_company).permit(:name, :value, :id_indicator, :id_junior_company)
+      params.require(:indicator_junior_company).permit(:name, :value, :indicator_id, :junior_company_id)
     end
 end

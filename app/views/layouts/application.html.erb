@@ -3,7 +3,7 @@
 <head>
   <title>Extrato</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
    <meta charset='utf-8'>
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +12,23 @@
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <!-- <script src="script.js"></script> -->
 </head>
-<body>
+  <body>
+    <div id="wrapper">
+      <%= render 'partials/header' %>
+      <%= render 'partials/sidebar' %>
+    </div>
+    <div id="page-wrapper">
+      <div id="page-inner">
+        <div class="row">
+          <div class="col-md-12">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-sec">
+      &copy; 2015 Concentro | Design By : <a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a>
+    </div>
 
-<%= yield %>
-
-</body>
+  </body>
 </html>

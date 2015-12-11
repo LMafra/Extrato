@@ -12,6 +12,8 @@ class IndicatorsController < ApplicationController
   def show
     @indicator_federation = @indicator.indicator_federations.new
     @indicator_junior_company = @indicator.indicator_junior_companies.new
+    @federations = Federation.where.not(id: @indicator.federations.pluck(:id))
+    @junior_companies = JuniorCompany.where.not(id: @indicator.junior_companies.pluck(:id))
   end
 
   # GET /indicators/new

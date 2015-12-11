@@ -28,7 +28,7 @@ class IndicatorFederationsController < ApplicationController
 
     respond_to do |format|
       if @indicator_federation.save
-        format.html { redirect_to @indicator_federation.indicator, notice: 'Indicator federation was successfully created.' }
+        format.html { redirect_to @indicator_federation.indicator}
         format.json { render :show, status: :created, location: @indicator_federation }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class IndicatorFederationsController < ApplicationController
   def update
     respond_to do |format|
       if @indicator_federation.update(indicator_federation_params)
-        format.html { redirect_to @indicator_federation, notice: 'Indicator federation was successfully updated.' }
+        format.html { redirect_to @indicator_federation.indicator}
         format.json { render :show, status: :ok, location: @indicator_federation }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class IndicatorFederationsController < ApplicationController
   def destroy
     @indicator_federation.destroy
     respond_to do |format|
-      format.html { redirect_to indicator_federations_url, notice: 'Indicator federation was successfully destroyed.' }
+      format.html { redirect_to @indicator_federation.indicator}
       format.json { head :no_content }
     end
   end

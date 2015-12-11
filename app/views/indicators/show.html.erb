@@ -15,6 +15,7 @@
         <% unless ind_federation.new_record? %>
           <p><%= ind_federation.federation.abbreviation %></p>
           <p><%= ind_federation.value %></p>
+          <span class="indicators__icon"><%= link_to 'Destroy', ind_federation, method: :delete, data: { confirm: 'Are you sure?' } %></span>
 
         <% end %>
       <% end %>
@@ -30,6 +31,7 @@
         <% unless ind_junior_company.new_record? %>
           <p><%= ind_junior_company.junior_company.name %></p>
           <p><%= ind_junior_company.value %></p>
+          <span class="indicators__icon"><%= link_to 'Destroy', ind_junior_company, method: :delete, data: { confirm: 'Are you sure?' } %></span>
         <% end %>
       <% end %>
     </div>
@@ -38,18 +40,18 @@
 <div class="indicator-relations">
   <div class="indicators-relations__item">
     <%= simple_form_for @indicator_federation do |f| %>
-      <%= f.association :federation, as: :select %>
+      <%= f.association :federation, as: :select, collection: @federations %>
       <%= f.input :value %>
       <%= f.association :indicator, as: :hidden %>
-      <%= f.button :submit %>
+      <%= f.button :submit, 'Criar' %>
     <% end %>
   </div>
   <div class="indicators-relations__item">
     <%= simple_form_for @indicator_junior_company do |f| %>
-      <%= f.association :junior_company, as: :select %>
+      <%= f.association :junior_company, as: :select, collection: @junior_companies %>
       <%= f.input :value %>
       <%= f.association :indicator, as: :hidden %>
-      <%= f.button :submit %>
+      <%= f.button :submit, 'Criar' %>
     <% end %>
   </div>
 </div>

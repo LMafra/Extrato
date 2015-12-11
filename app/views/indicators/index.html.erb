@@ -1,27 +1,21 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Indicators</h1>
+<h1>Lista de indicadores</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="indicators">
+  <div class="indicators__list">
 
-  <tbody>
+
     <% @indicators.each do |indicator| %>
-      <tr>
-        <td><%= indicator.name %></td>
-        <td><%= link_to 'Show', indicator %></td>
-        <td><%= link_to 'Edit', edit_indicator_path(indicator) %></td>
-        <td><%= link_to 'Destroy', indicator, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+      <div class="indicators__item">
+        <span class="indicators__name"><%= link_to indicator.name, indicator %></span>
+        <span class="indicators__icon"><%= link_to 'Edit', edit_indicator_path(indicator) %></span>
+        <span class="indicators__icon"><%= link_to 'Destroy', indicator, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+      </div>
     <% end %>
-  </tbody>
-</table>
+  </div>
+</div>
 
 <br>
 
-<%= link_to 'New Indicator', new_indicator_path %>
+<%= link_to 'Criar novo indicador', new_indicator_path %>
