@@ -13,8 +13,8 @@
     <div class="indicators__body clearfix">
       <% @indicator.indicator_federations.each do |ind_federation| %>
         <% unless ind_federation.new_record? %>
-          <p><%= ind_federation.federation.abbreviation %></p>
-          <p><%= ind_federation.value %></p>
+          <span class="indicators__name"><%= ind_federation.federation.abbreviation %></span>
+          <span class="indicators__value"><%= ind_federation.value %></span>
           <span class="indicators__icon"><%= link_to 'Edit', edit_indicator_federation_path(ind_federation) %></span>
           <span class="indicators__icon"><%= link_to 'Destroy', ind_federation, method: :delete, data: { confirm: 'Are you sure?' } %></span>
 
@@ -30,8 +30,8 @@
     <div class="indicators__body clearfix">
       <% @indicator.indicator_junior_companies.each do |ind_junior_company| %>
         <% unless ind_junior_company.new_record? %>
-          <p><%= ind_junior_company.junior_company.name %></p>
-          <p><%= ind_junior_company.value %></p>
+          <span class="indicators__name"><%= ind_junior_company.junior_company.name %></span>
+          <span class="indicators__value"><%= ind_junior_company.value %></span>
           <span class="indicators__icon"><%= link_to 'Edit', edit_indicator_junior_company_path(ind_junior_company) %></span>
           <span class="indicators__icon"><%= link_to 'Destroy', ind_junior_company, method: :delete, data: { confirm: 'Are you sure?' } %></span>
         <% end %>
@@ -57,5 +57,3 @@
     <% end %>
   </div>
 </div>
-<%= link_to 'Edit', edit_indicator_path(@indicator) %> |
-<%= link_to 'Back', indicators_path %>
