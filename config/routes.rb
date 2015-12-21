@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  resources :indicator_junior_companies
+  resources :indicator_federations
+  resources :indicators
   devise_scope :user do
     root to: "devise/sessions#new"
   end

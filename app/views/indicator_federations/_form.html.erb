@@ -1,0 +1,17 @@
+<%= simple_form_for(@indicator_federation) do |f| %>
+  <% if @indicator_federation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@indicator_federation.errors.count, "error") %> prohibited this indicator_federation from being saved:</h2>
+
+      <ul>
+      <% @indicator_federation.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <%= f.input :value %>
+  <%= f.association :indicator ,as: :select%>
+  <%= f.association :federation ,as: :select %>
+  <%= f.button :submit ,'Upadate'%>
+<% end %>

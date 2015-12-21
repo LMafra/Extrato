@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Lista de indicadores</h1>
+
+<div class="indicators">
+  <div class="indicators__list">
+
+
+    <% @indicators.each do |indicator| %>
+      <div class="indicators__item">
+        <span class="indicators__name"><%= link_to indicator.name, indicator %></span>
+        <span class="indicators__icon"><%= link_to 'Edit', edit_indicator_path(indicator) %></span>
+        <span class="indicators__icon"><%= link_to 'Destroy', indicator, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+      </div>
+    <% end %>
+  </div>
+</div>
+<div class="indicators-create">
+  <%= simple_form_for(@indicator) do |f| %>
+
+    <%= f.input :name %>
+    <%= f.button :submit %>
+
+  <% end %>
+</div>
+

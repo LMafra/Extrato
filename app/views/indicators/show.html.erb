@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @indicator.name %>
+</p>
+<div class="indicators">
+  <div class="indicators__type">
+    <div class="indicators__title clearfix">
+      <h5>Federação</h5>
+      <h5>Valor</h5>
+    </div>
+    <div class="indicators__body clearfix">
+      <% @indicator.indicator_federations.each do |ind_federation| %>
+        <% unless ind_federation.new_record? %>
+          <span class="indicators__name"><%= ind_federation.federation.abbreviation %></span>
+          <span class="indicators__value"><%= ind_federation.value %></span>
+          <span class="indicators__icon"><%= link_to 'Edit', edit_indicator_federation_path(ind_federation) %></span>
+          <span class="indicators__icon"><%= link_to 'Destroy', ind_federation, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+  <div class="indicators__type">
+    <div class="indicators__title clearfix">
+      <h5>EJ</h5>
+      <h5>Valor</h5>
+    </div>
+    <div class="indicators__body clearfix">
+      <% @indicator.indicator_junior_companies.each do |ind_junior_company| %>
+        <% unless ind_junior_company.new_record? %>
+          <span class="indicators__name"><%= ind_junior_company.junior_company.name %></span>
+          <span class="indicators__value"><%= ind_junior_company.value %></span>
+          <span class="indicators__icon"><%= link_to 'Edit', edit_indicator_junior_company_path(ind_junior_company) %></span>
+          <span class="indicators__icon"><%= link_to 'Destroy', ind_junior_company, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="indicator-relations">
+  <div class="indicators-relations__item">
+    <%= simple_form_for @indicator_federation do |f| %>
+      <%= f.association :federation, as: :select, collection: @federations %>
+      <%= f.input :value %>
+      <%= f.association :indicator, as: :hidden %>
+      <%= f.button :submit, 'Criar' %>
+    <% end %>
+  </div>
+  <div class="indicators-relations__item">
+    <%= simple_form_for @indicator_junior_company do |f| %>
+      <%= f.association :junior_company, as: :select, collection: @junior_companies %>
+      <%= f.input :value %>
+      <%= f.association :indicator, as: :hidden %>
+      <%= f.button :submit, 'Criar' %>
+    <% end %>
+  </div>
+</div>

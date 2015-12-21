@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @indicator_junior_company.name %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @indicator_junior_company.value %>
+</p>
+
+<p>
+  <strong>Id indicator:</strong>
+  <%= @indicator_junior_company.id_indicator %>
+</p>
+
+<p>
+  <strong>Id junior company:</strong>
+  <%= @indicator_junior_company.id_junior_company %>
+</p>
+
+<%= link_to 'Edit', edit_indicator_junior_company_path(@indicator_junior_company) %> |
+<%= link_to 'Back', indicator_junior_companies_path %>

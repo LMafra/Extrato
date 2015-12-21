@@ -1,0 +1,63 @@
+.indicators {
+  .indicators__list {
+    .indicators__item {
+      margin-top: 30px;
+
+      .indicators__name {
+        width: 50%;
+        display: block;
+        float: left;
+      }
+      .indicators__icon {
+        width: 25%;
+        display: block;
+        float: left;
+      }
+    }
+    span {
+      border-top: 1px solid #4380B8;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      a {
+        min-width: 60px;
+        padding: 8px 12px;
+        line-height: 1;
+        border-radius: 15px;
+        color: #4380B8;
+        text-decoration: none;
+        margin: 0 6px 12px 6px;
+        display: block;
+        float: left;
+        text-decoration: underline;
+        &:hover{
+          background-color: transparent;
+          background-color: rgba(black, 0.1);
+        }
+      }
+    }
+  }
+  .indicators__title, .indicators__body {
+    h5, span{
+      display: block;
+      float: left;
+    }
+  }
+  h5 {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .indicators__name, .indicators__value {
+    width: 40%;
+  }
+  .indicators__icon {
+    width: 10%;
+  }
+}
+.indicator-relations,.indicators, .indicators-create {
+  padding: 20px;
+  width: calc(50% - 20px);
+  float: left;
+}

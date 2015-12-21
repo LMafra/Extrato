@@ -1,0 +1,31 @@
+<nav class="navbar-default navbar-side" role="navigation">
+  <div class="sidebar-collapse">
+    <ul class="nav" id="main-menu">
+      <li>
+        <div class="user-img-div">
+
+          <div class="inner-text">
+            <br />
+            <small></small>
+          </div>
+        </div>
+
+      </li>
+
+      <li>
+        <a href="/perfomance_evaluation/1">AD. Diretor</a>
+      </li>
+      <li>
+        <a href="/perfomance_evaluation/2">AD. Coordenador</a> 
+      </li>
+      <li>
+        <a href="/perfomance_evaluation/3">AD. Assessor</a> 
+      <li>
+      <li>
+        <%= link_to "Indicadores", indicators_path %>
+      <li>
+
+      <li><%= link_to "Log out", destroy_user_session_path, :method => :delete%></li>
+    </ul>
+  </div>
+</nav>
